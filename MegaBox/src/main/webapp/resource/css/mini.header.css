@@ -1,27 +1,27 @@
 /* 기본 셋팅 */
-body {
+header body {
     letter-spacing: 0;
     line-height: 1.5;
     font-size: 15px;
     color: #444444;
     font-weight: 400;
 }
-div.wrap-header{
+header div.wrap-header{
     background: #fff;
     border-bottom: 1px solid #351f67;
     width: 100%;
     min-width: 1100px;
 }
 
-a{
+header a{
     background-color: transparent;
 }
-a:visited{
+header a:visited{
     color: #444444;
     text-decoration: none;
 }
 
-div{
+header div{
     display: block;
 }
 
@@ -204,7 +204,7 @@ div{
     top: 50px;
 }
 
-.page-util .location a {
+header .page-util .location a {
     display: block;
     position: relative;
     float: left;

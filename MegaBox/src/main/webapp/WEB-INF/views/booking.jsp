@@ -192,6 +192,7 @@ body {
 <body>
 	<div>
 		<header>
+			<%-- <%@include file="/WEB-INF/views/header.jsp"%> --%>
 		</header>
 	</div>
 	<div class="inner-wrap">
@@ -205,7 +206,7 @@ body {
 				</div>
 				<div class="quick-reserve-datelist">
 					<button type="button" class="prev">
-						<img src="/Mini/images/ico-cld-pre.png">
+						<img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-cld-pre.png">
 					</button>
 					<button type="button">19-오늘</button>
 					<button type="button">20-내일</button>
@@ -221,8 +222,8 @@ body {
 					<button type="button">30-토</button>
 					<button type="button">31-일</button>
 					<button type="button">1-월</button>
-					<button type="button" class="next">
-						<img src="/Mini/images/ico-cld-next.png">
+					<button type="button" class="next" style="background-image: url("https://img.megabox.co.kr/static/pc/images/common/ico/ico-cld-next.png");">
+						<img src="/webapp/resource/image/ico-cld-next.png">
 					</button>
 					<button type="button" class="calendar">달력</button>
 				</div>
@@ -300,7 +301,7 @@ body {
 					style="height: 30px; border: 1px solid black; text-align: center; margin: 0 auto;">
 					<button type="button"
 						style="background-color: transparent; border: 0;">
-						<img src="/Mini/images/ico-cld-pre.png">
+						<img src="/webapp/resource/image/ico-cld-pre.png">
 					</button>
 					<button type="button">11</button>
 					<button type="button">12</button>
@@ -314,14 +315,14 @@ body {
 					<button type="button">20</button>
 					<button type="button"
 						style="background-color: transparent; border: 0;">
-						<img src="/Mini/images/ico-cld-next.png">
+						<img src="/webapp/resource/image/ico-cld-next.png">
 					</button>
 				</div>
 				<div style="height: 430px; margin: 10px 0 0 0;">
 					<!-- 선택X -->
 					<div
 						style="height: 100%; padding: 150px 0 0 0; box-sizing: border-box; text-align: center;">
-						<img src="/Mini/images/ico-movie-time.png">
+						<img src="/webapp/resource/image/ico-movie-time.png">
 						<h4>영화와 극장을 선택하시면</h4>
 						<h4>상영시간표를 비교하여 볼 수 있습니다.</h4>
 					</div>

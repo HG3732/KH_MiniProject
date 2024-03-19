@@ -3,6 +3,7 @@ build/
 bin/
 keyfiles/
 *.properties
+*.metadata/
 
 # Compiled class file
 *.class

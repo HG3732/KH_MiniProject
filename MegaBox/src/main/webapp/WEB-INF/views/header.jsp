@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="/resource/css/reset.css" rel="stylesheet">
-    <link href="/resource/css/mini_core.css" rel="stylesheet">
-    <link href="/resource/css/mini_header.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resource/css/reset.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resource/css/mini_core.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resource/css/mini_header.css" rel="stylesheet">
 </head>
 <body>
     <div class="wrap-header">

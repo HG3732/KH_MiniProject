@@ -4,6 +4,7 @@ bin/
 keyfiles/
 *.properties
 *.metadata/
+*.Servers/
 
 # Compiled class file
 *.class

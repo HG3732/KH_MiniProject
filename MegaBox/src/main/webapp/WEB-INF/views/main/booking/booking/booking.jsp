@@ -17,6 +17,7 @@
 	<div class="wrap-header">
 		<header>
 			<%@include file="/WEB-INF/views/main/common/header.jsp"%>
+			<%@include file="/WEB-INF/views/main/common/topnav.jsp"%>
 		</header>
 	</div>
 	<div class="wrap-main">

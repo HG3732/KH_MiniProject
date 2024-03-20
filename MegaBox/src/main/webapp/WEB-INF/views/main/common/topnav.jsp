@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="/KH_JS/KH_Html/css/reset.css" rel="stylesheet">
-    <link href="/KH_JS/KH_Html/css/mini.core.css" rel="stylesheet">
-    <link href="/KH_JS/KH_Html/css/mini.topnav.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resource/css/reset.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resource/css/mini.core.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resource/css/common/mini.topnav.css" rel="stylesheet">
 </head>
 <body>
     <div class="page-util">

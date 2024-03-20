@@ -127,10 +127,10 @@ div.theater-list-all{
 div.theater-list-all li{
 	padding: 10px 0 10px 30px;
 }
-div.theater-list-curation li{
+div.theater-list-special li{
 	padding: 10px 0 10px 30px;
 }
-div.theater-list-curation{
+div.theater-list-special{
 	display: none;
 	height: 100%;
 }

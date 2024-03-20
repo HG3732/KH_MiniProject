@@ -31,7 +31,9 @@
 		</section>
 	</div>
 	<div class="wrap-footer">
-		<footer> </footer>
+		<footer>
+			<%@include file="/WEB-INF/views/main/common/footer.jsp"%>
+		</footer>
 	</div>
 </body>
 

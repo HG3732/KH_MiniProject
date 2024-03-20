@@ -11,8 +11,8 @@
 	<div class="header">
 		<%@include file="/WEB-INF/views/main/common/header.jsp" %>
 	</div>
-	<div class="footer">
+	<%-- <div class="footer">
 		<%@include file="/WEB-INF/views/main/common/footer.jsp" %>
-	</div>
+	</div> --%>
 </body>
 </html>

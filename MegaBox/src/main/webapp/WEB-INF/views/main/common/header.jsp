@@ -6,12 +6,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="${pageContext.request.contextPath}/resource/css/reset.css" rel="stylesheet">
-    <link href="${pageContext.request.contextPath}/resource/css/mini.core.css" rel="stylesheet">
-    <link href="${pageContext.request.contextPath}/resource/css/mini.header.css" rel="stylesheet">
+    <link href="/KH_JS/KH_Html/css/reset.css" rel="stylesheet">
+    <link href="/KH_JS/KH_Html/css/mini.core.css" rel="stylesheet">
+    <link href="/KH_JS/KH_Html/css/mini.header.css" rel="stylesheet">
 </head>
 <body>
-     <div class="wrap-header">
+    <div class="wrap-header">
         <header id="header">
             <h1 class="ci">
                 <a href="#" title="MEGABOX 메인으로 가기">MEGABOX : Life Theater</a>
@@ -53,11 +53,15 @@
     <div class="page-util">
         <div class="inner-wrap">
             <div class="location">
-                <span>home</span>
-                <a href="#" title="스토어">스토어</a>
+                <span class="home">home</span>
+                <span class="direction">direction</span>
+                <a href="#" title="메뉴내용">메뉴내용</a>
+                <span class="direction">direction</span>
+                <a href="#" title="메뉴내용">메뉴내용</a>
             </div>
         </div>
-    </div> 
+    </div>
+
         
 </body>
 </html>

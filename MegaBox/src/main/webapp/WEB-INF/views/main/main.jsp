@@ -8,6 +8,11 @@
 <link href="${pageContext.request.contextPath}/resource/css/reset.css" rel="stylesheet">
 </head>
 <body>
-	<a href=”${pageContext.request.contextPath}/header”></a>
+	<div class="header">
+		<%@include file="/WEB-INF/views/main/header.jsp" %>
+	</div>
+	<div class="footer">
+		<%@include file="/WEB-INF/views/main/footer.jsp" %>
+	</div>
 </body>
 </html>

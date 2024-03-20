@@ -7,6 +7,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>MEET PLAY SHARE, 메가박스</title>
+	<link href="${pageContext.request.contextPath}/resource/css/reset.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resource/css/mini.core.css" rel="stylesheet">
+	<%-- 
+     --%>
 <style>
 body {
 	width: 1100px;
@@ -190,9 +194,14 @@ body {
 </head>
 
 <body>
+	<script>
+		$("*").css("border","1px solid black");
+	</script>
 	<div>
 		<header>
-			<%-- <%@include file="/WEB-INF/views/header.jsp"%> --%>
+			<%@include file="/WEB-INF/views/header.jsp"%>
+			<%-- 
+			 --%>
 		</header>
 	</div>
 	<div class="inner-wrap">
@@ -222,7 +231,7 @@ body {
 					<button type="button">30-토</button>
 					<button type="button">31-일</button>
 					<button type="button">1-월</button>
-					<button type="button" class="next" style="background-image: url("https://img.megabox.co.kr/static/pc/images/common/ico/ico-cld-next.png");">
+					<button type="button" class="next">
 						<img src="/webapp/resource/image/ico-cld-next.png">
 					</button>
 					<button type="button" class="calendar">달력</button>

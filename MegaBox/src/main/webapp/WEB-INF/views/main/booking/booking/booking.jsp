@@ -17,7 +17,7 @@
 	<div class="wrap-header">
 		<header>
 			<%@include file="/WEB-INF/views/main/common/header.jsp"%>
-			<%@include file="/WEB-INF/views/main/common/topnav.jsp"%>
+			<%@include file="/WEB-INF/views/main/booking/booking/booking-topnav.jsp"%>
 		</header>
 	</div>
 	<div class="wrap-main">
@@ -26,9 +26,6 @@
 		</section>
 		<section class="wrap-main sec2" style="border: 1px solid black; box-sizing: border-box;">
 			<%@include file="/WEB-INF/views/main/booking/booking/booking-sec2.jsp"%>
-		</section>
-		<section class="wrap-main sec3" style="border: 1px solid black; box-sizing: border-box;">
-			<%@include file="/WEB-INF/views/main/booking/booking/booking-sec3.jsp"%>
 		</section>
 	</div>
 	<div class="wrap-footer">

@@ -11,6 +11,7 @@
     <link href="${pageContext.request.contextPath}/resource/css/mini.core.css" rel="stylesheet">
 	<%-- 
      --%>
+<!--      
 <style>
 body {
 	width: 1100px;
@@ -190,7 +191,9 @@ body {
 	 ~label:last-of-type.theater-choice {
 	color: violet;
 }
+
 </style>
+ -->
 </head>
 
 <body>
@@ -199,7 +202,7 @@ body {
 	</script>
 	<div>
 		<header>
-			<%@include file="/WEB-INF/views/header.jsp"%>
+			<%@include file="/WEB-INF/views/main/header.jsp"%>
 			<%-- 
 			 --%>
 		</header>
@@ -209,7 +212,6 @@ body {
 			홈 > <a href="#">예매</a> > <a href="#">빠른예매</a>
 		</section>
 		<section class="sec2">
-			<div class="quick-reserve">
 				<div class="tit-util">
 					<h2>빠른예매</h2>
 				</div>
@@ -236,7 +238,8 @@ body {
 					</button>
 					<button type="button" class="calendar">달력</button>
 				</div>
-			</div>
+		</section>
+		<section class="sec3">
 			<article class="movie-choice">
 				<div>영화</div>
 				<div>

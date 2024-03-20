@@ -8,6 +8,6 @@
 <link href="${pageContext.request.contextPath}/resource/css/reset.css" rel="stylesheet">
 </head>
 <body>
-	<a href=”${pageContext.request.contextPath}/header”></a>
+	<a href=”${pageContext.request.contextPath}/WEB-INF/views/header”></a>
 </body>
 </html>

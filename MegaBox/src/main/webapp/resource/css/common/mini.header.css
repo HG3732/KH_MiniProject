@@ -1,27 +1,27 @@
 /* 기본 셋팅 */
-header body {
+body {
     letter-spacing: 0;
     line-height: 1.5;
     font-size: 15px;
     color: #444444;
     font-weight: 400;
 }
-header div.wrap-header{
+div.wrap-header{
     background: #fff;
     border-bottom: 1px solid #351f67;
     width: 100%;
     min-width: 1100px;
 }
 
-header a{
+a{
     background-color: transparent;
 }
-header a:visited{
+a:visited{
     color: #444444;
     text-decoration: none;
 }
 
-header div{
+div{
     display: block;
 }
 
@@ -130,10 +130,6 @@ header div{
 #gnb {
     height: 0;
 }
-#gnb.on {
-    height: 44px;
-    background-color: #339EB2;
-}
 
 
 #gnb > ul {
@@ -141,9 +137,7 @@ header div{
     width: 1100px;
     
 }
-#gnb > ul.nav-menu > li {
-	line-height: 0;
-}
+
 #gnb > ul.nav-menu > li > a{
     position: absolute;
     text-indent: -9999px;
@@ -160,7 +154,7 @@ header div{
     top: 50px;
 }
 #gnb > div.movie-depth > ul {
-    /* display: none; */
+    display: none;
     padding-left: 50px;
 }
 #gnb > ul.nav-menu > li > div.movie-depth > ul > li{
@@ -204,15 +198,4 @@ header div{
     background-image: url(https://img.megabox.co.kr/static/pc/images/common/gnb/gnb-txt-benefit.png);
     right: 150px;
     top: 50px;
-}
-
-header .page-util .location a {
-    display: block;
-    position: relative;
-    float: left;
-    height: 42px;
-    margin: 0 0 0 25px;
-    padding: 0;
-    line-height: 46px;
-    color: #666;
 }

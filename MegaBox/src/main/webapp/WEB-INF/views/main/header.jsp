@@ -11,7 +11,7 @@
     <link href="${pageContext.request.contextPath}/resource/css/mini.header.css" rel="stylesheet">
 </head>
 <body>
-    <div class="wrap-header">
+     <div class="wrap-header">
         <header id="header">
             <h1 class="ci">
                 <a href="#" title="MEGABOX 메인으로 가기">MEGABOX : Life Theater</a>
@@ -47,16 +47,17 @@
                     <li><a href="#" class="nav-benefit" title="혜택">혜택</a></li>
                 </ul>
             </nav>
-            <div class="page-util">
-                <div class="inner-wrap">
-                    <div class="location">
-                        <span>home</span>
-                        <a href="#" title="스토어">"스토어"</a>
-                    </div>
-                </div>
-            </div>
+            
         </header>
-    </div>    
+    </div>
+    <div class="page-util">
+        <div class="inner-wrap">
+            <div class="location">
+                <span>home</span>
+                <a href="#" title="스토어">스토어</a>
+            </div>
+        </div>
+    </div> 
         
 </body>
 </html>

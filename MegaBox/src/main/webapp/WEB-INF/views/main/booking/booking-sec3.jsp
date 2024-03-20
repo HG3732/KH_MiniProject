@@ -66,12 +66,32 @@ div.movie-list-curation{
 div.movie-tab > input{
     display: none;
 }
+div.movie-list{
+	height: 320px;
+}
+div.movie-list-all{
+	height: 100%;
+}
+div.movie-list-curation{
+	display: none;
+	height: 100%;
+}
+
+div.movie-select{
+	display: flex;
+	width: 100%;
+	height: 144px;
+}
 
 
 
 
 
-
+div.none{
+width: 100%;
+height: 100%;
+margin: 10px;
+}
 div.booking-flex{
 background-color: bisque;
 }
@@ -107,7 +127,7 @@ background-color: bisque;
                 </div>
             </div>
             <div class="movie-select">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto inventore, quaerat cupiditate reiciendis molestias nulla reprehenderit ut esse harum earum dignissimos! Ut nostrum dignissimos non fuga, possimus veniam maiores?
+                <div class="none">미구현</div>
             </div>
         </div>
     </div>
@@ -125,15 +145,11 @@ background-color: bisque;
 </div>
 <script>
 $("input#movie-all").click(function(){
-    $("label#movie-all-label").css({"color":"white", "background-color":"black"})
-    $("label#movie-curation-label").removeAttr("color background-color");
     $("div.movie-list-all").show();
     $("div.movie-list-curation").hide();
     
 });
 $("input#movie-curation").click(function(){
-    $("label#movie-curation-label").css({"color":"white", "background-color":"black"});
-    $("label#movie-all-label").removeAttr("color background-color");
     $("div.movie-list-all").hide();
     $("div.movie-list-curation").show();
 });

@@ -72,6 +72,12 @@ div.movie-list{
 div.movie-list-all{
 	height: 100%;
 }
+div.movie-list-all li{
+	padding: 10px 0 10px 30px;
+}
+div.movie-list-curation li{
+	padding: 10px 0 10px 30px;
+}
 div.movie-list-curation{
 	display: none;
 	height: 100%;
@@ -87,10 +93,62 @@ div.movie-select{
 
 
 
+div.theater-title{
+    width: 100%;
+    padding: 10px 5px;
+}
+div.theater-tab{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+div.theater-tab > label{
+    width: 50%;
+    height: 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+    
+    border: 1px solid black;
+}
+div.theater-list-all-detail,
+div.theater-list-special-detail{
+    overflow-y: scroll;
+}
+div.theater-tab > input{
+    display: none;
+}
+div.theater-list{
+	height: 320px;
+}
+div.theater-list-all{
+	height: 100%;
+}
+div.theater-list-all li{
+	padding: 10px 0 10px 30px;
+}
+div.theater-list-curation li{
+	padding: 10px 0 10px 30px;
+}
+div.theater-list-curation{
+	display: none;
+	height: 100%;
+}
+
+div.theater-select{
+	display: flex;
+	width: 100%;
+	height: 144px;
+}
+
+
+
+
+
 div.none{
 width: 100%;
 height: 100%;
-margin: 10px;
+padding: 10px;
 }
 div.booking-flex{
 background-color: bisque;
@@ -132,6 +190,71 @@ background-color: bisque;
         </div>
     </div>
 	<div class="theater">
+        <div class="theater-title">
+            극장
+        </div>
+        <div class="theater-content">
+            <div class="theater-tab">
+                <input type="radio" name="theater-tab" id="theater-all">
+                <label for="theater-all" id="theater-all-label">전체</label>
+                <input type="radio" name="movie-tab" id="theater-special">
+                <label for="theater-special" id="theater-special-label">특별관</label>
+            </div>
+            <div class="theater-list">
+                <!-- 전체 -->
+                <div class="theater-list-all-region">
+                    <ul>
+                        <li>서울</li>
+                        <li>경기</li>
+                        <li>인천</li>
+                    </ul>
+				</div>
+				<div class="theater-list-all-detail">
+                    <ul>
+                    	<li>강남</li>
+                    	<li>강북</li>
+                    	<li>강서</li>
+                    </ul>
+                    <ul>
+                    	<li>성남</li>
+                    	<li>수원</li>
+                    	<li>의정부</li>
+                    </ul>
+                    <ul>
+                    	<li>청라</li>
+                    	<li>검암</li>
+                    </ul>
+				</div>
+                <!-- 특별관 -->
+                <div class="theater-list-special-region">
+                    <ul>
+                        <li>서울</li>
+                        <li>경기</li>
+                        <li>인천</li>
+                    </ul>
+				</div>
+				<div class="theater-list-special-detail">
+                    <ul>
+                    	<li>강남 특별</li>
+                    	<li>강북 특별</li>
+                    	<li>강서 특별</li>
+                    </ul>
+                    <ul>
+                    	<li>성남 특별</li>
+                    	<li>수원 특별</li>
+                    	<li>의정부 특별</li>
+                    </ul>
+                    <ul>
+                    	<li>청라 특별</li>
+                    	<li>검암 특별</li>
+                    </ul>
+				</div>
+            </div>
+            <div class="theater-select">
+                <div class="none">미구현</div>
+            </div>
+        </div>
+		
         <div class="theater-title">
 
         </div>

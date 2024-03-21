@@ -5,7 +5,6 @@
 <head>
 <meta charset="UTF-8">
 <title>booking-sec3</title>
-<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 </head>
 <body style="border: 1px solid black;">
 	<div class="booking-flex">

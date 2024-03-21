@@ -11,6 +11,8 @@
 <link href="${pageContext.request.contextPath}/resource/css/reset.css" rel="stylesheet">
 <link href="${pageContext.request.contextPath}/resource/css/mini.core.css" rel="stylesheet">
 <link href="${pageContext.request.contextPath}/resource/css/booking/mini.booking.layout.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/resource/css/common/mini.header.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/resource/css/common/mini.topnav.css" rel="stylesheet">
 <link href="${pageContext.request.contextPath}/resource/css/booking/mini.booking.sec2.css" rel="stylesheet">
 </head>
 
@@ -34,6 +36,7 @@
 			<%@include file="/WEB-INF/views/main/common/footer.jsp"%>
 		</footer>
 	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>

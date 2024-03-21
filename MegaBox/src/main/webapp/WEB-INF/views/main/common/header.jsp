@@ -6,15 +6,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="${pageContext.request.contextPath}/resource/css/reset.css" rel="stylesheet">
-    <link href="${pageContext.request.contextPath}/resource/css/mini.core.css" rel="stylesheet">
-    <link href="${pageContext.request.contextPath}/resource/css/common/mini.header.css" rel="stylesheet">
 </head>
 <body>
     <div class="wrap-header">
         <header id="header">
             <h1 class="ci">
-                <a href="#" title="MEGABOX 메인으로 가기">MEGABOX : Life Theater</a>
+                <a href="http://localhost:8080/megabox/main" title="MEGABOX 메인으로 가기">MEGABOX : Life Theater</a>
             </h1>
 
             <div class="util-area">
@@ -37,10 +34,8 @@
             </div>
             <nav id="gnb">
                 <ul class="nav-menu">
-                    <li>
-                        <a href="#" class="nav-movie" title="영화">영화</a>
-                    </li>
-                    <li><a href="#" class="nav-ticket" title="예매">예매</a></li>
+                    <li><a href="#" class="nav-movie" title="영화">영화</a></li>
+                    <li><a href="http://localhost:8080/megabox/booking" class="nav-ticket" title="예매">예매</a></li>
                     <li><a href="#" class="nav-theater" title="영화관">영화관</a></li>
                     <li><a href="#" class="nav-event" title="이벤트">이벤트</a></li>
                     <li><a href="#" class="nav-store" title="스토어">스토어</a></li>

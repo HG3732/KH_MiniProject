@@ -130,6 +130,7 @@
 .movie_chart>div .poster .agetitle>div {
     position: relative;
     padding: 12px 0;
+    line-height: 23px;
 }
 .movie_chart>div .poster .agetitle>div .age {
     position: absolute;
@@ -138,6 +139,7 @@
     width: 23px;
     height: 23px;
     display: inline-block;
+    text-indent: -9999px;
 }
 .movie_chart>div .poster .agetitle>div .title {
     overflow: hidden;
@@ -160,19 +162,56 @@
 }
 .movie_chart>div .infor_btn {
     position: relative;
-    padding: 15px 0;
+    padding: 0;
+    
 }
-.movie_chart>div .infor_btn .detail {
-    position: absolute;
-    left: 0;
-    top: 0;
+.movie_chart>div .infor_btn .goodbtn {
+	display: inline-block;
     line-height: 30px;
+    border: 1px solid #c6c6c6;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-size;
+    width: 70px;
+	height: 36px;
+	border-radius: 3px;
+    
 }
-.movie_chart>div .infor_btn .book {
-    position: absolute;
+.movie_chart>div .infor_btn .hrtimg{
+	display: block;
+	float: left;
+	background-image: url(../../image/ico-heart-small.png);
+	background-size: 17px 15px;
+	background-repeat: no-repeat;
+	background-color: transparant;
+	background-position: center;
+	padding-left: 30px;
+	width: 20px;
+	height: 36px;
+	line-height: 36px;
+}
+.movie_chart>div .infor_btn .goodbtn span{
+
+	display: block;
+	float: right;
+	padding-right: 10px;
+	line-height: 32px;
+}
+.movie_chart>div .infor_btn .bookbtn{
+	clear: both;
+	width: 140px;
+	height: 36px;
+	/* text-indent: -9999px; */
+	border-radius: 3px;
+}
+
+.movie_chart>div .infor_btn .bookbtn{
+	position: absolute;
     right: 0;
     top: 0;
-    line-height: 30px;
+	background-color: #503396;
+
 }
 
 /* 더보기 */
@@ -196,23 +235,23 @@ button:hover{
 
 /* image */
 .age_12 {
-    background-image: url(${pageContext.request.contextPath}/resource/image/12_40x40.png);
+    background-image: url(../../image/12_40x40.png);
     background-size: 23px;
     background-repeat: no-repeat;
 }
 .age_15 {
-    background-image: url(${pageContext.request.contextPath}/resource/image/15_40x40.png);
+    background-image: url(../../image/15_40x40.png);
     
     background-size: 23px;
     background-repeat: no-repeat;
 }
 .age_18 {
-    background-image: url(${pageContext.request.contextPath}/resource/image/18_40x40.png);
+    background-image: url(../../image/18_40x40.png);
     background-size: 23px;
     background-repeat: no-repeat;
 }
 .age_all {
-    background-image: url(${pageContext.request.contextPath}/resource/image/ALL_40x40.png);
+    background-image: url(../../image/ALL_40x40.png);
     background-size: 23px;
     background-repeat: no-repeat;
 }

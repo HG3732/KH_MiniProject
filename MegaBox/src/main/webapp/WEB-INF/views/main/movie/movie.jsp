@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEET PLAY SHARE, 메가박스</title>
 
-    <link rel="stylesheet" href="/CSS/reset.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/CSS/reset.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/movie/megabox_movie.css">
     
     <!-- jquery js 파일은 상단에 위치함 -->

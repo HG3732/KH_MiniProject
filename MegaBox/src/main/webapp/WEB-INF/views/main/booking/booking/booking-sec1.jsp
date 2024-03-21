@@ -5,17 +5,9 @@
 <head>
 <meta charset="UTF-8">
 <title>booking-sec2</title>
-<style>
-
-
-
-
-
-
-section.wrap-main.sec1{
-background-color: brown;
-}
-</style>
+<link href="${pageContext.request.contextPath}/resource/css/reset.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/resource/css/mini.core.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/resource/css/booking/mini.booking.layout.css" rel="stylesheet">
 </head>
 <body>
 	<div class="tit-util">

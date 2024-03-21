@@ -24,10 +24,10 @@
 		</header>
 	</div>
 	<div class="wrap-main">
-		<section class="wrap-main sec1" style="border: 1px solid black; box-sizing: border-box;">
+		<section class="wrap-main sec1">
 			<%@include file="/WEB-INF/views/main/booking/booking/booking-sec1.jsp"%>
 		</section>
-		<section class="wrap-main sec2" style="border: 1px solid black; box-sizing: border-box;">
+		<section class="wrap-main sec2">
 			<%@include file="/WEB-INF/views/main/booking/booking/booking-sec2.jsp"%>
 		</section>
 	</div>

@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEET PLAY SHARE, 메가박스</title>
 
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/reset.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/movie/megabox_movie.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/reset.css">    
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/mini.core.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/movie/megabox_movie.css">
     
     
     <!-- jquery js 파일은 상단에 위치함 -->
@@ -66,7 +66,7 @@
                             </div>
                             <div class="agetitle">
                                 <div>
-                                    <span class="age age_12 ir">12</span>
+                                    <span class="age age_18">18</span>
                                     <span class="title">극장판 스파이 패밀리 코드 : 화이트</span>
                                 </div>
                             </div>
@@ -78,11 +78,13 @@
                                 </div>
                             </div>
                             <div class="infor_btn">
-                                <a href="#" class="detail"><button type="button" class="goodbtn">좋아요</button></a>
-                                <a href="#" class="book_n"><button type="button" class="bookbtn">예매하기</button></a>
+                            	<button class="goodbtn"><label><a href="#" class="hrtimg" title="좋아요"></a><span>980</span></label>
+                                </button>
+                                <button type="bookbtn" class="bookbtn">예매하기</button>
                                 <!-- <a href="#" class="book_cinema">예매하기</a> -->
                                 <!-- <a href="#" class="book_atmos">예매하기</a> -->
                             </div>
+                         
                         </div>
                         <div class="poster">
                             <div>
@@ -97,7 +99,7 @@
                             </div>
                             <div class="agetitle">
                                 <div>
-                                    <span class="age age_12 ir">12</span>
+                                    <span class="age age_12">12</span>
                                     <span class="title">파묘</span>
                                 </div>
                             </div>
@@ -128,7 +130,7 @@
                             </div>
                             <div class="agetitle">
                                 <div>
-                                    <span class="age age_12 ir">12</span>
+                                    <span class="age age_12">12</span>
                                     <span class="title">듄:파트2</span>
                                 </div>
                             </div>
@@ -159,7 +161,7 @@
                             </div>
                             <div class="agetitle">
                                 <div>
-                                    <span class="age age_12 ir">12</span>
+                                    <span class="age age_12">12</span>
                                     <span class="title">댓글부대</span>
                                 </div>
                             </div>
@@ -192,7 +194,7 @@
                             </div>
                             <div class="agetitle">
                                 <div>
-                                    <span class="age age_12 ir">12</span>
+                                    <span class="age age_12">12</span>
                                     <span class="title">극장판 스파이 패밀리 코드 : 화이트</span>
                                 </div>
                             </div>
@@ -223,7 +225,7 @@
                             </div>
                             <div class="agetitle">
                                 <div>
-                                    <span class="age age_12 ir">12</span>
+                                    <span class="age age_12">12</span>
                                     <span class="title">파묘</span>
                                 </div>
                             </div>
@@ -254,7 +256,7 @@
                             </div>
                             <div class="agetitle">
                                 <div>
-                                    <span class="age age_12 ir">12</span>
+                                    <span class="age age_12">12</span>
                                     <span class="title">듄:파트2</span>
                                 </div>
                             </div>
@@ -285,7 +287,7 @@
                             </div>
                             <div class="agetitle">
                                 <div>
-                                    <span class="age age_12 ir">12</span>
+                                    <span class="age age_12">12</span>
                                     <span class="title">댓글부대</span>
                                 </div>
                             </div>
@@ -318,7 +320,7 @@
                             </div>
                             <div class="agetitle">
                                 <div>
-                                    <span class="age age_12 ir">12</span>
+                                    <span class="age age_12">12</span>
                                     <span class="title">극장판 스파이 패밀리 코드 : 화이트</span>
                                 </div>
                             </div>
@@ -349,7 +351,7 @@
                             </div>
                             <div class="agetitle">
                                 <div>
-                                    <span class="age age_12 ir">12</span>
+                                    <span class="age age_12">12</span>
                                     <span class="title">파묘</span>
                                 </div>
                             </div>
@@ -380,7 +382,7 @@
                             </div>
                             <div class="agetitle">
                                 <div>
-                                    <span class="age age_12 ir">12</span>
+                                    <span class="age age_12">12</span>
                                     <span class="title">듄:파트2</span>
                                 </div>
                             </div>
@@ -411,7 +413,7 @@
                             </div>
                             <div class="agetitle">
                                 <div>
-                                    <span class="age age_12 ir">12</span>
+                                    <span class="age age_12">12</span>
                                     <span class="title">댓글부대</span>
                                 </div>
                             </div>

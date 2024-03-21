@@ -6,9 +6,9 @@
 <meta charset="UTF-8">
 <title>MEET PLAY SHARE, 메가박스</title> 
 
-<link rel="stylesheet" href="/CSS/reset.css">
-<link rel="stylesheet" href="/CSS/mini.core.css">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/theater/theatre.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/reset.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/mini.core.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/theater/theater.css">
 
 <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 

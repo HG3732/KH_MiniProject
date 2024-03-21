@@ -3,15 +3,18 @@
     box-sizing: border-box;
 }
 h1{
+	display: inline-block;
     font-size: 1.866em;
     font-weight: 400;
 }
 h2{
-    font-size: 15px,
-    font-weight 700;
+	display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
     line-height: 1.5;
 }
 h3{
+	display: inline-block;
     line-height: 1.15;
     font-weight: 400;
     font-size:0.8667em;

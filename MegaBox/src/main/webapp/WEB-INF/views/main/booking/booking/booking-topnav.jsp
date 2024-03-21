@@ -16,9 +16,9 @@
             <div class="location">
                 <span class="home">home</span>
                 <span class="direction">direction</span>
-                <a href="#" title="메뉴내용">예매</a>
+                <a href="http://localhost:8080/megabox/booking" title="메뉴내용">예매</a>
                 <span class="direction">direction</span>
-                <a href="#" title="메뉴내용">빠른예매</a>
+                <a href="http://localhost:8080/megabox/booking" title="메뉴내용">빠른예매</a>
             </div>
         </div>
     </div>

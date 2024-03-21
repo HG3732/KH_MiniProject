@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEET PLAY SHARE, 메가박스</title>
 
-    <link rel="stylesheet" href="/CSS/reset.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/reset.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/movie/megabox_movie.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/mini.core.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/megabox.min.css">
     
     <!-- jquery js 파일은 상단에 위치함 -->
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
@@ -21,6 +23,7 @@
         <div class="wrap-container">
             <div class="movie">
                 <!-- 배너 -->
+                <%-- 
                 <div class="movie_banner">
                     <div class="banner">
                         <span><img src="${pageContext.request.contextPath}/resource/image/bg-location-home.png" alt="home"></span>
@@ -34,6 +37,7 @@
                         </a>
                     </div>
                 </div>
+                 --%>
                 <!-- 전체영화 -->
                 <h1 class="allmovie">전체영화</h1>
                 <!-- 탭 -->
@@ -74,10 +78,10 @@
                                 </div>
                             </div>
                             <div class="infor_btn">
-                                <a href="#" class="detail">좋아요</a>
-                                <a href="#" class="book_n">예매하기</a>
-                                <a href="#" class="book_cinema">예매하기</a>
-                                <a href="#" class="book_atmos">예매하기</a>
+                                <a href="#" class="detail"><button type="button" class="goodbtn">좋아요</button></a>
+                                <a href="#" class="book_n"><button type="button" class="bookbtn">예매하기</button></a>
+                                <!-- <a href="#" class="book_cinema">예매하기</a> -->
+                                <!-- <a href="#" class="book_atmos">예매하기</a> -->
                             </div>
                         </div>
                         <div class="poster">
@@ -107,8 +111,8 @@
                             <div class="infor_btn">
                                 <a href="#" class="detail">좋아요</a>
                                 <a href="#" class="book_n">예매하기</a>
-                                <a href="#" class="book_cinema">예매하기</a>
-                                <a href="#" class="book_atmos">예매하기</a>
+                                <!-- <a href="#" class="book_cinema">예매하기</a> -->
+                                <!-- <a href="#" class="book_atmos">예매하기</a> -->
                             </div>
                         </div>
                         <div class="poster">
@@ -138,8 +142,8 @@
                             <div class="infor_btn">
                                 <a href="#" class="detail">좋아요</a>
                                 <a href="#" class="book_n">예매하기</a>
-                                <a href="#" class="book_cinema">예매하기</a>
-                                <a href="#" class="book_atmos">예매하기</a>
+                                <!-- <a href="#" class="book_cinema">예매하기</a> -->
+                                <!-- <a href="#" class="book_atmos">예매하기</a> -->
                             </div>
                         </div>
                         <div class="poster">
@@ -169,8 +173,8 @@
                             <div class="infor_btn">
                                 <a href="#" class="detail">좋아요</a>
                                 <a href="#" class="book_n">예매하기</a>
-                                <a href="#" class="book_cinema">예매하기</a>
-                                <a href="#" class="book_atmos">예매하기</a>
+                                <!-- <a href="#" class="book_cinema">예매하기</a> -->
+                                <!-- <a href="#" class="book_atmos">예매하기</a> -->
                             </div>
                         </div>
                     </div>
@@ -202,8 +206,8 @@
                             <div class="infor_btn">
                                 <a href="#" class="detail">좋아요</a>
                                 <a href="#" class="book_n">예매하기</a>
-                                <a href="#" class="book_cinema">예매하기</a>
-                                <a href="#" class="book_atmos">예매하기</a>
+                                <!-- <a href="#" class="book_cinema">예매하기</a> -->
+                                <!-- <a href="#" class="book_atmos">예매하기</a> -->
                             </div>
                         </div>
                         <div class="poster">
@@ -233,8 +237,8 @@
                             <div class="infor_btn">
                                 <a href="#" class="detail">좋아요</a>
                                 <a href="#" class="book_n">예매하기</a>
-                                <a href="#" class="book_cinema">예매하기</a>
-                                <a href="#" class="book_atmos">예매하기</a>
+                                <!-- <a href="#" class="book_cinema">예매하기</a> -->
+                                <!-- <a href="#" class="book_atmos">예매하기</a> -->
                             </div>
                         </div>
                         <div class="poster">
@@ -264,8 +268,8 @@
                             <div class="infor_btn">
                                 <a href="#" class="detail">좋아요</a>
                                 <a href="#" class="book_n">예매하기</a>
-                                <a href="#" class="book_cinema">예매하기</a>
-                                <a href="#" class="book_atmos">예매하기</a>
+                                <!-- <a href="#" class="book_cinema">예매하기</a> -->
+                                <!-- <a href="#" class="book_atmos">예매하기</a> -->
                             </div>
                         </div>
                         <div class="poster">
@@ -295,8 +299,8 @@
                             <div class="infor_btn">
                                 <a href="#" class="detail">좋아요</a>
                                 <a href="#" class="book_n">예매하기</a>
-                                <a href="#" class="book_cinema">예매하기</a>
-                                <a href="#" class="book_atmos">예매하기</a>
+                                <!-- <a href="#" class="book_cinema">예매하기</a> -->
+                                <!-- <a href="#" class="book_atmos">예매하기</a> -->
                             </div>
                         </div>
                     </div>
@@ -328,8 +332,8 @@
                             <div class="infor_btn">
                                 <a href="#" class="detail">좋아요</a>
                                 <a href="#" class="book_n">예매하기</a>
-                                <a href="#" class="book_cinema">예매하기</a>
-                                <a href="#" class="book_atmos">예매하기</a>
+                                <!-- <a href="#" class="book_cinema">예매하기</a> -->
+                                <!-- <a href="#" class="book_atmos">예매하기</a> -->
                             </div>
                         </div>
                         <div class="poster">
@@ -359,8 +363,8 @@
                             <div class="infor_btn">
                                 <a href="#" class="detail">좋아요</a>
                                 <a href="#" class="book_n">예매하기</a>
-                                <a href="#" class="book_cinema">예매하기</a>
-                                <a href="#" class="book_atmos">예매하기</a>
+                                <!-- <a href="#" class="book_cinema">예매하기</a> -->
+                                <!-- <a href="#" class="book_atmos">예매하기</a> -->
                             </div>
                         </div>
                         <div class="poster">
@@ -390,8 +394,8 @@
                             <div class="infor_btn">
                                 <a href="#" class="detail">좋아요</a>
                                 <a href="#" class="book_n">예매하기</a>
-                                <a href="#" class="book_cinema">예매하기</a>
-                                <a href="#" class="book_atmos">예매하기</a>
+                                <!-- <a href="#" class="book_cinema">예매하기</a> -->
+                                <!-- <a href="#" class="book_atmos">예매하기</a> -->
                             </div>
                         </div>
                         <div class="poster">
@@ -421,8 +425,8 @@
                             <div class="infor_btn">
                                 <a href="#" class="detail">좋아요</a>
                                 <a href="#" class="book_n">예매하기</a>
-                                <a href="#" class="book_cinema">예매하기</a>
-                                <a href="#" class="book_atmos">예매하기</a>
+                                <!-- <a href="#" class="book_cinema">예매하기</a> -->
+                                <!-- <a href="#" class="book_atmos">예매하기</a> -->
                             </div>
                         </div>
                     </div>
@@ -454,8 +458,8 @@
                             <div class="infor_btn">
                                 <a href="#" class="detail">좋아요</a>
                                 <a href="#" class="book_n">예매하기</a>
-                                <a href="#" class="book_cinema">예매하기</a>
-                                <a href="#" class="book_atmos">예매하기</a>
+                                <!-- <a href="#" class="book_cinema">예매하기</a> -->
+                                <!-- <a href="#" class="book_atmos">예매하기</a> -->
                             </div>
                         </div>
                         <div class="poster">
@@ -485,8 +489,8 @@
                             <div class="infor_btn">
                                 <a href="#" class="detail">좋아요</a>
                                 <a href="#" class="book_n">예매하기</a>
-                                <a href="#" class="book_cinema">예매하기</a>
-                                <a href="#" class="book_atmos">예매하기</a>
+                                <!-- <a href="#" class="book_cinema">예매하기</a> -->
+                                <!-- <a href="#" class="book_atmos">예매하기</a> -->
                             </div>
                         </div>
                         <div class="poster">
@@ -516,8 +520,8 @@
                             <div class="infor_btn">
                                 <a href="#" class="detail">좋아요</a>
                                 <a href="#" class="book_n">예매하기</a>
-                                <a href="#" class="book_cinema">예매하기</a>
-                                <a href="#" class="book_atmos">예매하기</a>
+                                <!-- <a href="#" class="book_cinema">예매하기</a> -->
+                                <!-- <a href="#" class="book_atmos">예매하기</a> -->
                             </div>
                         </div>
                         <div class="poster">
@@ -547,8 +551,8 @@
                             <div class="infor_btn">
                                 <a href="#" class="detail">좋아요</a>
                                 <a href="#" class="book_n">예매하기</a>
-                                <a href="#" class="book_cinema">예매하기</a>
-                                <a href="#" class="book_atmos">예매하기</a>
+                                <!-- <a href="#" class="book_cinema">예매하기</a> -->
+                                <!-- <a href="#" class="book_atmos">예매하기</a> -->
                             </div>
                         </div>
                     </div>

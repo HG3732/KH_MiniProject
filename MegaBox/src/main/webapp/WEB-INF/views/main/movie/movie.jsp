@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/reset.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/movie/megabox_movie.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/mini.core.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/megabox.min.css">
+    
     
     <!-- jquery js 파일은 상단에 위치함 -->
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>

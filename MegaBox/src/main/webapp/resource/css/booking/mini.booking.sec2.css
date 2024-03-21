@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+.booking-flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.booking-flex div.movie,
+.booking-flex div.theater,
+.booking-flex div.time {
+	box-sizing: border-box;
+	height: 530px;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+}
+
+.booking-flex div.movie {
+	width: 270px;
+}
+
+.booking-flex div.theater {
+	width: 350px;
+}
+
+.booking-flex div.time {
+	width: calc(100% - 620px);
+}
+
+.booking-flex div.movie-title {
+	width: 100%;
+	padding: 10px 5px;
+}
+
+.booking-flex div.movie-tab {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+.booking-flex div.movie-tab > label,
+.booking-flex div.theater-tab > label {
+	width: 50%;
+	height: 30px;
+	box-sizing: border-box;
+	cursor: pointer;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.booking-flex div.movie-list-all,
+.booking-flex div.movie-list-curation {
+	overflow-y: scroll;
+}
+
+.booking-flex div.movie-tab > input {
+	display: none;
+}
+
+.booking-flex div.movie-list {
+	height: 320px;
+}
+
+.booking-flex div.movie-list-all {
+	height: 100%;
+}
+
+.booking-flex div.movie-list-all li {
+	padding: 10px 0 10px 30px;
+}
+
+.booking-flex div.movie-list-curation li {
+	padding: 10px 0 10px 30px;
+}
+
+.booking-flex div.movie-list-curation {
+	display: none;
+	height: 100%;
+}
+
+.booking-flex div.movie-select {
+	width: 100%;
+	height: 144px;
+}
+
+.booking-flex div.theater-title {
+	width: 100%;
+	padding: 10px 5px;
+}
+
+.booking-flex div.theater-tab {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+.booking-flex div.theater-tab > label {
+	width: 50%;
+	height: 30px;
+	box-sizing: border-box;
+	cursor: pointer;
+	border: 1px solid black;
+}
+
+.booking-flex div.theater-tab > input {
+	display: none;
+}
+
+.booking-flex div.theater-1,
+.booking-flex div.theater-2 {
+	width:50%;
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.booking-flex div.theater-select {
+	display: flex;
+	width: 100%;
+	height: 144px;
+}
+
+.booking-flex div.none {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+}
+
+.booking-flex {
+	background-color: bisque;
+}

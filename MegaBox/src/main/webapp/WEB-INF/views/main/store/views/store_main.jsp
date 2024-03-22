@@ -10,17 +10,24 @@
 	rel="stylesheet">
 <link href="${pageContext.request.contextPath}/resource/css/core.css"
 	rel="stylesheet">
-	
-<link href="${pageContext.request.contextPath}/resource/css/common/mini.header.css"
+
+<link
+	href="${pageContext.request.contextPath}/resource/css/common/mini.header.css"
 	rel="stylesheet">
-<link href="${pageContext.request.contextPath}/resource/css/common/mini.footer.css"
+<link
+	href="${pageContext.request.contextPath}/resource/css/common/mini.footer.css"
 	rel="stylesheet">
-	
-<link href="${pageContext.request.contextPath}/resource/css/store/resource/css/layout.css"
+
+
+<link
+	href="${pageContext.request.contextPath}/resource/css/store/resource/css/layout.css"
 	rel="stylesheet">
-<link href="${pageContext.request.contextPath}/resource/css/store/resource/css/store.css"
+
+<link
+	href="${pageContext.request.contextPath}/resource/css/store/resource/css/store.css"
 	rel="stylesheet">
-<link href="${pageContext.request.contextPath}/resource/css/store/resource/css/core.css"
+<link
+	href="${pageContext.request.contextPath}/resource/css/store/resource/css/core.css"
 	rel="stylesheet">
 
 <title>스토어메인</title>
@@ -28,13 +35,6 @@
 </head>
 
 <body>
-	<div class="header-wrap">
-		<div class="header">
-			<%@include file="/WEB-INF/views/main/common/header.jsp"%>
-			
-		</div>
-	</div>
-
 	<section class="container">
 
 		<div class="inner-wrap">
@@ -46,14 +46,13 @@
 				<div class="contents-inner-wrap">
 					<h2 class="tit">스토어</h2>
 					<div class="tab-list">
-						<a href="">
+						<a href="http://localhost:8080/megabox/store">
 							<div class="list">새로운 상품</div>
-						</a> <a href="/store_ticket.jsp"">
+						</a> <a href="http://localhost:8080/megabox/ticket">
 							<div class="list">메가티켓</div>
-						</a> <a href="">
-							<!-- /Mini_Project/src/main/webapp/WEB-INF/views/store_ticket.jsp -->
+						</a> <a href="http://localhost:8080/megabox/snack">
 							<div class="list">팝콘/음료/굿즈</div>
-						</a> <a href="">
+						</a> <a href="http://localhost:8080/megabox/pointmall">
 							<div class="list pointmall">포인트몰</div>
 						</a>
 					</div>
@@ -92,7 +91,7 @@
 					</div>
 					<div class="flex-box">
 						<div class="item">
-							<a href="#" class="item-a">
+							<a href="http://localhost:8080/megabox/detail" class="item-a">
 								<div class="soldout">SOLD OUT</div>
 								<div class="lable event">EVENT</div>
 								<div class="img">
@@ -116,7 +115,8 @@
 							</a>
 						</div>
 						<div class="item">
-							<a href="#" class="item-a"> <!-- <div class="soldout">SOLD OUT</div> -->
+							<a href="http://localhost:8080/megabox/detail" class="item-a">
+								<!-- <div class="soldout">SOLD OUT</div> -->
 								<div class="lable hot">대표상품</div>
 								<div class="img">
 									<img
@@ -140,7 +140,8 @@
 							</a>
 						</div>
 						<div class="item">
-							<a href="#" class="item-a"> <!-- <div class="soldout">SOLD OUT</div> -->
+							<a href="http://localhost:8080/megabox/detail" class="item-a">
+								<!-- <div class="soldout">SOLD OUT</div> -->
 								<div class="lable push">추천</div>
 								<div class="img">
 									<img
@@ -164,8 +165,8 @@
 							</a>
 						</div>
 						<div class="item">
-							<a href="#" class="item-a"> <!-- <div class="soldout">SOLD OUT</div> -->
-								<!-- <div class="lable event">EVENT</div> -->
+							<a href="http://localhost:8080/megabox/detail" class="item-a">
+								<!-- <div class="soldout">SOLD OUT</div> --> <!-- <div class="lable event">EVENT</div> -->
 								<div class="img">
 									<img
 										src="${pageContext.request.contextPath}/resource/css/store/resource/img/megabutique.png"
@@ -190,7 +191,7 @@
 					</div>
 					<div class="tit-util">
 						<h3 class="tit ticket">팝콘/음료/굿즈</h3>
-						<a href="#" class="more">더보기></a>
+						<a href="http://localhost:8080/megabox/detail" class="more">더보기></a>
 					</div>
 					<div class="flex-box">
 						<div class="item">
@@ -218,7 +219,8 @@
 							</a>
 						</div>
 						<div class="item">
-							<a href="#" class="item-a"> <!-- <div class="soldout">SOLD OUT</div> -->
+							<a href="http://localhost:8080/megabox/detail" class="item-a">
+								<!-- <div class="soldout">SOLD OUT</div> -->
 								<div class="lable new">NEW</div>
 								<div class="img">
 									<img
@@ -396,11 +398,7 @@
 			</div>
 		</div>
 	</section>
-	<div class="wrap-footer">
-		<footer>
-			<%@include file="/WEB-INF/views/main/common/footer.jsp"%>
-		</footer>
-	</div>
+
 </body>
 
 </html>

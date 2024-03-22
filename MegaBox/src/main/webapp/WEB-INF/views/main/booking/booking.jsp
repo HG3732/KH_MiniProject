@@ -7,13 +7,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>MEET PLAY SHARE, 메가박스</title>
+	<!-- 
 	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-	<!-- 
+	 -->
 	<link href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	 -->
 	<link href="${pageContext.request.contextPath}/resource/css/reset.css" rel="stylesheet">
 	<link href="${pageContext.request.contextPath}/resource/css/mini.core.css" rel="stylesheet">
 	<link href="${pageContext.request.contextPath}/resource/css/booking/mini.booking.layout.css" rel="stylesheet">

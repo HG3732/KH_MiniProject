@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.booking-sec1 div.quick-reserve-datelist {
+	align-content: center;
+}
+.booking-sec1 div.quick{
+	float: left;
+	width: auto;
+}
+.booking-sec1 div.cal{
+	float: right;
+	width: auto;
+}

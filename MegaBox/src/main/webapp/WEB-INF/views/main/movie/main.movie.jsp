@@ -12,14 +12,12 @@
 <link href="${pageContext.request.contextPath}/resource/css/common/movie/megabox_movie.css" rel="stylesheet">
 </head>
 <body>
-	<div class="header">
-		<%@include file="/WEB-INF/views/main/common/header.jsp" %>
+	<div>	
+			<%@include file="/WEB-INF/views/main/movie/movienav.jsp"%>
 	</div>
-	<div class="movie">
-		<%@include file="/WEB-INF/views/main/movie/movie.jsp" %>
+	<div>
+			<%@include file="/WEB-INF/views/main/movie/movie.jsp"%>
 	</div>
-	<div class="footer">
-		<%@include file="/WEB-INF/views/main/common/footer.jsp" %>
-	</div>
+	
 </body>
 </html>

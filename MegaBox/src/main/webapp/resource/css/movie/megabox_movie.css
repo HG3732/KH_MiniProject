@@ -1,14 +1,15 @@
 /* movie */
 .wrap {
-    width: 1100px;
-    margin: 0 auto;
+	width: 1100px;
+	margin: 0 auto;
 }
+
 .ir {
-    font-size: 1;
-    line-height: 0;
-    display: block;
-    overflow: hidden;
-    text-indent: -9999px;
+	font-size: 1;
+	line-height: 0;
+	display: block;
+	overflow: hidden;
+	text-indent: -9999px;
 }
 /* 
 .wrap-container{
@@ -18,240 +19,408 @@
 /* 배너 */
 /* .movie_banner{} */
 .movie_banner {
-	dispaly: block;
-    width: 1100px;
-    margin: 0 auto;
+	display: block;
+	width: 1100px;
+	height: 42px;
+	margin: 0 auto;
+	background-color: #f5f5f5;
+	overflow: hidden;
 }
+
 .banner {
-    overflow: hidden;
-    height: 100%;
-    line-height: 46px;
-    background-color: #f5f5f5;
+	line-height: 42px;
+	float: left;
+	height: 42px;
 }
-.banner>span {
-    display: inline-block;
-    margin: 0 0 0 10px;
-    color: #666;
-    border-image-repeat: no-repeat;
-    text-decoration: none;
-}
-.banner .banner_info {
-    text-decoration: none;
+
+.banner>span .banner>img {
+	display: inline-block;
+	margin: 0 0 0 10px;
+	color: #666;
+	border-image-repeat: no-repeat;
 }
 
 /* allmovie */
 .allmovie {
-    padding: 40px 0;
+	display: block;
+	width: 1100px;
+	margin: 0 auto;
+	padding: 40px 0 26px 0;
+	overflow: hidden;
 }
 
 /* 탭 */
-/* .movie_tab{} */
-.movie_tab ul {
-    width: 1100px;
+.movie_tab {
+	display: block;
+	width: 1100px;
+	height: 41px;
+	overflow: hidden;
 }
+
 .movie_tab li {
-    float: left;
-    width: 220px;
-    height: 41px;
-    border: 1px solid #c6c6c6;
-    box-sizing: border-box;
-    text-align: center;
+	float: left;
+	width: 220px;
+	height: 41px;
+	border: 1px solid #c6c6c6;
+	box-sizing: border-box;
 }
+
+.movie_tab li button {
+	line-height: 41px;
+	width: 220px;
+	border: 0px;
+	padding: 0;
+	margin: 0;
+	color: #666;
+}
+/* 
 .movie_tab li a {
     display: inline-block;
-    line-height: 40px;
+    line-height: 41px;
     width: 220px;
     text-decoration: none;
 }
+ */
+/* 영화선택옵션 */
+.movieopt {
+	clear: both;
+	display: block;
+	width: 1100px;
+	overflow: hidden;
+	padding: 20px 0;
+}
 
-/* .movie_tab li .active a{} */
-
-/* 차트 */
-/* .movie_chart{} */
-/* .movie_chart > div{} */
-.movie_chart>div .poster {
-    position: relative;
-    float: left;
-    width: 230;
-    height: 450;
-    margin-right: 60px;
+.movieopt .opt1 {
+	overflow: hidden;
 }
-.poster .posterbtn{
-    width:230px;
-    height: 330px;
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-.movie_chart>div .poster:last-child {
-    margin: 0px;
-}
-.movie_chart>div .poster img {
-    display: block;
-    width: 230px;
-    height: 330px;
-}
-.movie_chart>div .poster .rank {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 20px;
-    height: 20px;
-    line-height: 40px;
-    text-align: center;
-    color: white;
-    font-style: italic;
-    font-size: 30px;
-    display: block;
-}
-.movie_chart>div .poster .theater {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    width: 170px;
-    height: 50px;
-}
-.movie_chart>div .poster .theater p {
-    width: 80px;
-    height: 40px;
-    background-color: rgba(0, 0, 0, .6);
-    display: inline-block;
-    border: 1px solid rgba(0, 0, 0, .6);
-}
-.movie_chart>div .poster .theater p img {
-    width: 60px;
-    height: 40px;
-    padding: 10px;
-    margin: 0 auto;
-}
-.movie_chart>div .poster .agetitle {
-    padding: 15px 0;
-}
-.movie_chart>div .poster .agetitle>div {
-    position: relative;
-    padding: 12px 0;
-    line-height: 23px;
-}
-.movie_chart>div .poster .agetitle>div .age {
-    position: absolute;
-    left: 0;
-    top: 0px;
-    width: 23px;
-    height: 23px;
-    display: inline-block;
-    text-indent: -9999px;
-}
-.movie_chart>div .poster .agetitle>div .title {
-    overflow: hidden;
-    position: absolute;
-    width: 200px;
-    height: 23px;
-    left: 30px;
-    top: 0;
-    font-size: 19px;
-    font-weight: bold;
-}
-.movie_chart>div .poster .ratedate {
-    padding: 10px 0;
-}
-.movie_chart>div .poster .ratedate>div {
-    display: inline-block;
-}
-.movie_chart>div .poster .ratedate>div>span {
-    margin-right: 10px;
-}
-.movie_chart>div .infor_btn {
-    position: relative;
-    padding: 0;
-    
-}
-.movie_chart>div .infor_btn .goodbtn {
-	display: inline-block;
-    line-height: 30px;
-    border: 1px solid #c6c6c6;
-    background-color: white;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-size;
-    width: 70px;
-	height: 36px;
-	border-radius: 3px;
-    
-}
-.movie_chart>div .infor_btn .hrtimg{
+.movieopt .opt1 .moviecnt {
 	display: block;
 	float: left;
-	background-image: url(../../image/ico-heart-small.png);
-	background-size: 17px 15px;
+	
+}
+
+.movieopt .opt1 .moviesrc {
+	float: right;
+}
+
+.movieopt .opt1 .moviesrc form {
+	clear: both;
+	position: relative;
+}
+
+.movieopt .opt1 .moviesrc form .inputt {
+	position: absoulte;
+	top: 0;
+	right: 0;
+}
+
+.movieopt .opt1 .moviesrc form .inputs {
+	position: absoulte;
+	top: 0;
+	right: 0;
+}
+
+/* 차트 */
+.movie_chart {
+	display: block;
+	width: 1100px;
+	overflow: hidden;
+}
+/* .movie_chart > div{} */
+.movie_chart>div .poster {
+	position: relative;
+	float: left;
+	width: 230;
+	height: 450;
+	margin-right: 60px;
+}
+
+.movie_chart>div .poster:nth-child(4) {
+	margin: 0px;
+}
+
+.movie_chart>div .poster:nth-child(8) {
+	margin: 0px;
+}
+
+.movie_chart>div .poster:nth-child(12) {
+	margin: 0px;
+}
+
+.movie_chart>div .addpst {
+	display: none;
+}
+
+.poster .posterbtn {
+	position: absoulte;
+	left: 0;
+	top: 0;
+	width: 230px;
+	height: 330px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.movie_chart>div .poster img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 230px;
+	height: 330px;
+}
+
+.movie_chart>div .poster .ranktheater {
+	position: absolute;
+	top: 10px;
+	overflow: hidden;
+	width: 230px;
+	height: 40px;
+}
+
+.movie_chart>div .poster .ranktheater .rank {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin-right: 0 15px;
+}
+
+.movie_chart>div .poster .ranktheater .ranknum {
+	display: block;
+	font-size: 40px;
+	font-weight: 300px;
+	line-height: 40px;
+	color: white;
+	font-style: italic;
+}
+
+.movie_chart>div .poster .ranktheater .theater {
+	display: inline-block;
+	width: 140px;
+	height: 40px;
+	margin-left: 30px;
+}
+
+.movie_chart>div .poster .ranktheater .theater p {
+	position: relative;
+	width: 65px;
+	height: 40px;
+	background-color: rgba(0, 0, 0, .6);
+	display: inline-block;
+	border: 1px solid rgba(0, 0, 0, .6);
+}
+
+.movie_chart>div .poster .ranktheater .theater p img {
+	position: absoulte;
+	top: 0;
+	left: 0;
+	width: 60px;
+	height: 40px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.movie_chart>div .poster .agetitle {
+	display: block;
+	width: 230px;
+	height: 27px;
+}
+
+.movie_chart>div .poster .agetitle>div {
+	display: block;
+	float: left;
+	padding: 12px 0;
+	line-height: 23px;
+	overflow: hidden;
+}
+
+.movie_chart>div .poster .agetitle>div .age {
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.movie_chart>div .poster .agetitle>div .title {
+	display: inline-block;
+	width: 200px;
+	height: 23px;
+	font-size: 19px;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+.movie_chart>div .poster .ratedate {
+	overflow: hidden;
+	display: block;
+	width: 230px;
+	height: 30px;
+}
+
+.movie_chart>div .poster .ratedate>div>span {
+	display: block;
+	float: left;
+	height: 23px;
+	font-size: 12px;
+}
+
+.movie_chart>div .poster .infor_btn {
+	clear: both;
+	overflow: hidden;
+	width: 230px;
+	height: 36px;
+}
+
+.movie_chart>div .infor_btn .goodbtn {
+	display: block;
+	float: left;
+	border: 1px solid #c6c6c6;
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-size;
+	width: 70px;
+	height: 36px;
+	border-radius: 3px;
+}
+
+.movie_chart>div .infor_btn .goodbtn .hrtimg {
+	display: block;
+	float: left;
+	background-image: url(../../image/ico-heart-toggle.png);
+	background-size: 34px 15px;
 	background-repeat: no-repeat;
 	background-color: transparant;
-	background-position: center;
-	padding-left: 30px;
-	width: 20px;
+	background-position: 0;
+	padding-left: 10px;
+	width: 17px;
 	height: 36px;
 	line-height: 36px;
+	margin: 0 auto;
 }
-.movie_chart>div .infor_btn .goodbtn span{
 
+.movie_chart>div .infor_btn .goodbtn .likebtn {
+	background-position: -17px;
+}
+
+.movie_chart>div .infor_btn .goodbtn span {
 	display: block;
 	float: right;
 	padding-right: 10px;
 	line-height: 32px;
 }
-.movie_chart>div .infor_btn .bookbtn{
-	clear: both;
+
+.movie_chart>div .infor_btn .bookbtn {
+	float: right;
 	width: 140px;
 	height: 36px;
 	/* text-indent: -9999px; */
 	border-radius: 3px;
-}
-
-.movie_chart>div .infor_btn .bookbtn{
-	position: absolute;
-    right: 0;
-    top: 0;
+	display: block;
 	background-color: #503396;
-
 }
 
 /* 더보기 */
-.addbar{
-    padding-top:100px;
-    display: inline-block;
-    width:1100px;
-}
-.addbar>button{
-    display: inline-block;
-    width: 100%;
-    height: 50px;
-    background-color: white;
-    border: 1px solid #c6c6c6;
+.addbar {
+	padding-top: 100px;
+	display: inline-block;
+	width: 1100px;
 }
 
+.addbar>button {
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	border: 1px solid #c6c6c6;
+}
+/* onair 버튼 */
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	height: 17px;
+}
+
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 13px;
+	width: 13px;
+	left: 2px;
+	bottom: 2px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked+.slider {
+	background-color: rgb(3, 123, 148);
+}
+
+input:focus+.slider {
+	box-shadow: 0 0 .5px rgb(3, 123, 148);
+}
+
+input:checked+.slider:before {
+	-webkit-transform: translateX(13px);
+	-ms-transform: translateX(13px);
+	transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 25%;
+}
 /* hover */
-button:hover{
-    cursor: pointer;
+button:hover {
+	cursor: pointer;
 }
 
 /* image */
 .age_12 {
-    background-image: url(../../image/12_40x40.png);
-    background-size: 23px;
-    background-repeat: no-repeat;
+	background-image: url(../../image/12_40x40.png);
+	background-size: 23px;
+	background-repeat: no-repeat;
 }
+
 .age_15 {
-    background-image: url(../../image/15_40x40.png);
-    
-    background-size: 23px;
-    background-repeat: no-repeat;
+	background-image: url(../../image/15_40x40.png);
+	background-size: 23px;
+	background-repeat: no-repeat;
 }
+
 .age_18 {
-    background-image: url(../../image/18_40x40.png);
-    background-size: 23px;
-    background-repeat: no-repeat;
+	background-image: url(../../image/18_40x40.png);
+	background-size: 23px;
+	background-repeat: no-repeat;
 }
+
 .age_all {
-    background-image: url(../../image/ALL_40x40.png);
-    background-size: 23px;
-    background-repeat: no-repeat;
+	background-image: url(../../image/ALL_40x40.png);
+	background-size: 23px;
+	background-repeat: no-repeat;
 }

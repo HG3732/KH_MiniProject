@@ -16,9 +16,11 @@
             <div class="location">
                 <span class="home">home</span>
                 <span class="direction">direction</span>
-                <a href="#" title="메뉴내용">메뉴내용</a>
+                <a href="#" title="메뉴내용">전체영화</a>
                 <span class="direction">direction</span>
-                <a href="#" title="메뉴내용">메뉴내용</a>
+                <a href="#" title="메뉴내용">큐레이션</a>
+                <span class="direction">direction</span>
+                <a href="#" title="메뉴내용">무비포스트</a>
             </div>
         </div>
     </div>

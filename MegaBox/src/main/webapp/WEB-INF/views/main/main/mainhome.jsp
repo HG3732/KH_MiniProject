@@ -7,11 +7,15 @@
 <title>Main Home</title>
 	<link href="${pageContext.request.contextPath}/resource/css/reset.css" rel="stylesheet">
 	<link href="${pageContext.request.contextPath}/resource/css/mini.core.css" rel="stylesheet">
+	<link href="${pageContext.request.contextPath}/resource/css/common/mini.header.css" rel="stylesheet">
 	<link href="${pageContext.request.contextPath}/resource/css/main/mini.mainsection.css" rel="stylesheet">
 	<link href="${pageContext.request.contextPath}/resource/css/common/mini.footer.css" rel="stylesheet">
 </head>
 <body>
-<div class="header">
+	<div class="header">
+		<%@include file="/WEB-INF/views/main/common/header.jsp" %>
+	</div>
+	<div class="section">
 		<%@include file="/WEB-INF/views/main/main/mainpage/mainsection.jsp" %>
 	</div>
 	<div class="footer">

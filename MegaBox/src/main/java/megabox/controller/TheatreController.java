@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class TheatreController
  */
-@WebServlet("/theatre")
+@WebServlet("/theater")
 public class TheatreController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -27,7 +27,7 @@ public class TheatreController extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		request.getRequestDispatcher("/WEB-INF/views/main/theater/theatre.jsp").forward(request, response);
+		request.getRequestDispatcher("/WEB-INF/views/main/theater/theater.jsp").forward(request, response);
 	}
 
 }

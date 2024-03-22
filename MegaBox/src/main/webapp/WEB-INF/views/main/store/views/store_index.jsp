@@ -18,9 +18,11 @@
 	href="${pageContext.request.contextPath}/resource/css/common/mini.footer.css"
 	rel="stylesheet">
 
+
 <link
 	href="${pageContext.request.contextPath}/resource/css/store/resource/css/layout.css"
 	rel="stylesheet">
+
 <link
 	href="${pageContext.request.contextPath}/resource/css/store/resource/css/store.css"
 	rel="stylesheet">
@@ -28,21 +30,13 @@
 	href="${pageContext.request.contextPath}/resource/css/store/resource/css/core.css"
 	rel="stylesheet">
 
-
-<title>스토어-티켓</title>
+<title>스토어메인</title>
 <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 </head>
 
 <body>
-	<%@include file="/WEB-INF/views/main/common/header.jsp"%>
-	<%@include file="/WEB-INF/views/main/store/views/store_topnav.jsp"%>
-
 	<section class="container">
-
 		<div class="inner-wrap">
-			<div class="location">
-				<!-- <span>Home</span> <a href="" title="스토어"></a> -->
-			</div>
 
 			<div class="contents">
 				<div class="contents-inner-wrap">
@@ -58,43 +52,48 @@
 							<div class="list pointmall">포인트몰</div>
 						</a>
 					</div>
-					<!-- <div class="store-main">
-                        <div class="best-goods">
-                            <a href="">
-                                <div class="slogun">
-                                    <p class="font-gblue">소중한 분들과 함께</p>
-                                    <p class="font-purple">즐거운 관람되세요~</p>
-                                </div>
-                                <div class="goods">
-                                    <p class="name">러브콤보패키지</p>
-                                    <p class="txt">2인 관람권 + 러브콤보 [팝콘(L)1 + 탄산음료(R)2]</p>
-                                </div>
-                                <div class="price">
-                                    <p class="sale"><em>32,000</em>
-                                        <span>원</span>
-                                    </p>
-                                    <p class="original">
-                                        <em>36,000 원</em>
+					<div class="store-main">
+						<div class="best-goods">
+							<a href="">
+								<div class="slogun">
+									<p class="font-gblue">소중한 분들과 함께</p>
+									<p class="font-purple">즐거운 관람되세요~</p>
+								</div>
+								<div class="goods">
+									<p class="name">러브콤보패키지</p>
+									<p class="txt">2인 관람권 + 러브콤보 [팝콘(L)1 + 탄산음료(R)2]</p>
+								</div>
+								<div class="price">
+									<p class="sale">
+										<em>32,000</em> <span>원</span>
+									</p>
+									<p class="original">
+										<em>36,000 원</em>
 
-                                    </p>
-                                </div>
-                                <p class="img">
-                                    <img src="/mini/img/meagapopup.png" alt="">
-                                </p>
-                            </a>
-                        </div>
-                    </div> -->
+									</p>
+								</div>
+								<p class="img">
+									<img
+										src="${pageContext.request.contextPath}/resource/css/store/resource/img/meagapopup.png"
+										alt="">
+									<!-- /Mini_Project/src/main/webapp/resource/img/meagapopup.png -->
+								</p>
+							</a>
+						</div>
+					</div>
 					<div class="tit-util">
 						<h3 class="tit ticket">메가티켓</h3>
 						<a href="#" class="more">더보기></a>
 					</div>
 					<div class="flex-box">
 						<div class="item">
-							<a href="#" class="item-a">
+							<a href="http://localhost:8080/megabox/detail" class="item-a">
 								<div class="soldout">SOLD OUT</div>
 								<div class="lable event">EVENT</div>
 								<div class="img">
-									<img src="/mini/img/megapass.jpg" alt="">
+									<img
+										src="${pageContext.request.contextPath}/resource/css/store/resource/img/megapass.jpg"
+										alt="">
 								</div>
 								<div class="info">
 									<div class="tit">
@@ -112,10 +111,13 @@
 							</a>
 						</div>
 						<div class="item">
-							<a href="#" class="item-a"> <!-- <div class="soldout">SOLD OUT</div> -->
+							<a href="http://localhost:8080/megabox/detail" class="item-a">
+								<!-- <div class="soldout">SOLD OUT</div> -->
 								<div class="lable hot">대표상품</div>
 								<div class="img">
-									<img src="/mini/img/megaticket1.png" alt="">
+									<img
+										src="${pageContext.request.contextPath}/resource/css/store/resource/img/megaticket1.png"
+										alt="">
 								</div>
 								<div class="info">
 									<div class="tit">
@@ -134,10 +136,13 @@
 							</a>
 						</div>
 						<div class="item">
-							<a href="#" class="item-a"> <!-- <div class="soldout">SOLD OUT</div> -->
+							<a href="http://localhost:8080/megabox/detail" class="item-a">
+								<!-- <div class="soldout">SOLD OUT</div> -->
 								<div class="lable push">추천</div>
 								<div class="img">
-									<img src="/mini/img/megaticket3.png" alt="">
+									<img
+										src="${pageContext.request.contextPath}/resource/css/store/resource/img/megaticket3.png"
+										alt="">
 								</div>
 								<div class="info">
 									<div class="tit">
@@ -156,10 +161,12 @@
 							</a>
 						</div>
 						<div class="item">
-							<a href="#" class="item-a"> <!-- <div class="soldout">SOLD OUT</div> -->
-								<!-- <div class="lable event">EVENT</div> -->
+							<a href="http://localhost:8080/megabox/detail" class="item-a">
+								<!-- <div class="soldout">SOLD OUT</div> --> <!-- <div class="lable event">EVENT</div> -->
 								<div class="img">
-									<img src="/mini/img/megabutique.png" alt="">
+									<img
+										src="${pageContext.request.contextPath}/resource/css/store/resource/img/megabutique.png"
+										alt="">
 								</div>
 								<div class="info">
 									<div class="tit">
@@ -180,14 +187,16 @@
 					</div>
 					<div class="tit-util">
 						<h3 class="tit ticket">팝콘/음료/굿즈</h3>
-						<a href="#" class="more">더보기></a>
+						<a href="http://localhost:8080/megabox/detail" class="more">더보기></a>
 					</div>
 					<div class="flex-box">
 						<div class="item">
 							<a href="#" class="item-a"> <!-- <div class="soldout">SOLD OUT</div> -->
 								<div class="lable new">NEW</div>
 								<div class="img">
-									<img src="/mini/img/megacombo.png" alt="">
+									<img
+										src="${pageContext.request.contextPath}/resource/css/store/resource/img/megacombo.png"
+										alt="">
 								</div>
 								<div class="info">
 									<div class="tit">
@@ -206,10 +215,13 @@
 							</a>
 						</div>
 						<div class="item">
-							<a href="#" class="item-a"> <!-- <div class="soldout">SOLD OUT</div> -->
+							<a href="http://localhost:8080/megabox/detail" class="item-a">
+								<!-- <div class="soldout">SOLD OUT</div> -->
 								<div class="lable new">NEW</div>
 								<div class="img">
-									<img src="/mini/img/megasquid.png" alt="">
+									<img
+										src="${pageContext.request.contextPath}/resource/css/store/resource/img/megasquid.png"
+										alt="">
 								</div>
 								<div class="info">
 									<div class="tit">
@@ -231,7 +243,9 @@
 							<a href="#" class="item-a"> <!-- <div class="soldout">SOLD OUT</div> -->
 								<div class="lable new">NEW</div>
 								<div class="img">
-									<img src="/mini/img/megacombo.png" alt="">
+									<img
+										src="${pageContext.request.contextPath}/resource/css/store/resource/img/megacombo.png"
+										alt="">
 								</div>
 								<div class="info">
 									<div class="tit">
@@ -253,7 +267,9 @@
 							<a href="#" class="item-a"> <!-- <div class="soldout">SOLD OUT</div> -->
 								<div class="lable hot">대표상품</div>
 								<div class="img">
-									<img src="/mini/img/megapop.png" alt="">
+									<img
+										src="${pageContext.request.contextPath}/resource/css/store/resource/img/megapop.png"
+										alt="">
 								</div>
 								<div class="info">
 									<div class="tit">
@@ -281,7 +297,9 @@
 							<a href="#" class="item-a"> <!-- <div class="soldout">SOLD OUT</div> -->
 								<!-- <div class="lable event">EVENT</div> -->
 								<div class="img">
-									<img src="/mini/img/megaticket1.png" alt="">
+									<img
+										src="${pageContext.request.contextPath}/resource/css/store/resource/img/megaticket1.png"
+										alt="">
 								</div>
 								<div class="info">
 									<div class="tit">
@@ -300,9 +318,12 @@
 							</a>
 						</div>
 						<div class="item">
-							<a href="#" class="item-a">
+							<a href="#" class="item-a"> <!-- <div class="soldout">SOLD OUT</div> -->
+								<!-- <div class="lable event">EVENT</div> -->
 								<div class="img">
-									<img src="/mini/img/megaticket2.png" alt="">
+									<img
+										src="${pageContext.request.contextPath}/resource/css/store/resource/img/megaticket2.png"
+										alt="">
 								</div>
 								<div class="info">
 									<div class="tit">
@@ -313,64 +334,67 @@
 										<p class="sale">
 											<em>10,900</em> <span>Point</span>
 										</p>
-										<p class="ea"></p>
+										<p class="ea">
+											<!-- <span>0</span> 개 남음 -->
+										</p>
 									</div>
 								</div>
 							</a>
 						</div>
 						<div class="item">
-							<!-- <a href="#" class="item-a">
-                                <div class="img">
-                                    <img src="/mini/img/megacoupon1.png" alt="">
-                                </div>
-                                <div class="info">
-                                    <div class="tit">
-                                        <p class="name">영화 4천원 할인쿠폰</p>
-                                        <p class="bundle">일반/컴포트/더 부티크/Dolby Atmos 사용 가능</p>
-                                    </div>
-                                    <div class="price">
-                                        <p class="sale">
-                                            <em>2,000</em> <span>Point</span>
-                                        </p>
-                                        <p class="ea">
-                                        </p>
-                                    </div>
-                                </div>
-                            </a> -->
+							<a href="#" class="item-a"> <!-- <div class="soldout">SOLD OUT</div> -->
+								<!-- <div class="lable event">EVENT</div> -->
+								<div class="img">
+									<img
+										src="${pageContext.request.contextPath}/resource/css/store/resource/img/megacoupon1.png"
+										alt="">
+								</div>
+								<div class="info">
+									<div class="tit">
+										<p class="name">영화 4천원 할인쿠폰</p>
+										<p class="bundle">일반/컴포트/더 부티크/Dolby Atmos 사용 가능</p>
+									</div>
+									<div class="price">
+										<p class="sale">
+											<em>2,000</em> <span>Point</span>
+										</p>
+										<p class="ea">
+											<!-- <span>0</span> 개 남음 -->
+										</p>
+									</div>
+								</div>
+							</a>
 						</div>
 						<div class="item">
-							<!-- <a href="#" class="item-a">
-
-                                <div class="img">
-                                    <img src="/mini/img/megacoupon2.png" alt="">
-                                </div>
-                                <div class="info">
-                                    <div class="tit">
-                                        <p class="name">영화 3천원 할인쿠폰</p>
-                                        <p class="bundle">일반/컴포트/더 부티크/Dolby Atmos 사용 가능</p>
-                                    </div>
-                                    <div class="price">
-                                        <p class="sale">
-                                            <em>1,500</em> <span>Point</span>
-                                        </p>
-                                        <p class="ea">
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </a> -->
+							<a href="#" class="item-a"> <!-- <div class="soldout">SOLD OUT</div>
+                                <div class="lable event">EVENT</div> -->
+								<div class="img">
+									<img
+										src="${pageContext.request.contextPath}/resource/css/store/resource/img/megacoupon2.png"
+										alt="">
+								</div>
+								<div class="info">
+									<div class="tit">
+										<p class="name">영화 3천원 할인쿠폰</p>
+										<p class="bundle">일반/컴포트/더 부티크/Dolby Atmos 사용 가능</p>
+									</div>
+									<div class="price">
+										<p class="sale">
+											<em>1,500</em> <span>Point</span>
+										</p>
+										<p class="ea">
+											<!-- <span>0</span> 개 남음 -->
+										</p>
+									</div>
+								</div>
+							</a>
 						</div>
-
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<div class="wrap-footer">
-		<footer>
-			<%@include file="/WEB-INF/views/main/common/footer.jsp"%>
-		</footer>
-	</div>
+
 </body>
 
 </html>

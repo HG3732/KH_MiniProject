@@ -10,38 +10,35 @@
 	rel="stylesheet">
 <link href="${pageContext.request.contextPath}/resource/css/core.css"
 	rel="stylesheet">
-	
-<link href="${pageContext.request.contextPath}/resource/css/common/mini.header.css"
+
+<link
+	href="${pageContext.request.contextPath}/resource/css/common/mini.header.css"
 	rel="stylesheet">
-<link href="${pageContext.request.contextPath}/resource/css/common/mini.footer.css"
-	rel="stylesheet">
-	
-<link href="${pageContext.request.contextPath}/resource/css/store/resource/css/layout.css"
-	rel="stylesheet">
-<link href="${pageContext.request.contextPath}/resource/css/store/resource/css/store.css"
-	rel="stylesheet">
-<link href="${pageContext.request.contextPath}/resource/css/store/resource/css/core.css"
+<link
+	href="${pageContext.request.contextPath}/resource/css/common/mini.footer.css"
 	rel="stylesheet">
 
-<title>스토어-포인트몰</title>
-<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+<link
+	href="${pageContext.request.contextPath}/resource/css/store/resource/css/layout.css"
+	rel="stylesheet">
+
+<link
+	href="${pageContext.request.contextPath}/resource/css/store/resource/css/store.css"
+	rel="stylesheet">
+<link
+	href="${pageContext.request.contextPath}/resource/css/store/resource/css/core.css"
+	rel="stylesheet">
 </head>
 
 <body>
-	<div class="header-wrap">
-		<div class="header">
-			<%@include file="/WEB-INF/views/main/common/header.jsp"%>
-			
-		</div>
-	</div>
 
+	<%@include file="/WEB-INF/views/main/common/header.jsp"%>
+	<%@include file="/WEB-INF/views/main/store/views/store_topnav.jsp"%>
 
 	<section class="container">
 
 		<div class="inner-wrap">
-			<div class="location">
-				<span>Home</span> <a href="" title="스토어"></a>
-			</div>
 
 			<div class="contents">
 				<div class="contents-inner-wrap">

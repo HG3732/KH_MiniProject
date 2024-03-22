@@ -37,7 +37,7 @@
 		$(".plus").on("click", plusTotal);
 		$(".minus").on("click", minusHandler);
 	}
-
+	// 수량 추가
 	function plusTotal() {
 		$("input.num").val(
 				Number.parseInt($("input.num").val()) + Number.parseInt(1));
@@ -46,7 +46,7 @@
 						+ '원');
 
 	};
-
+	// 수량 차감
 	function minusHandler() {
 		if ($("input.num").val() > 0) {
 			$("input.num").val(
@@ -63,11 +63,10 @@
 </head>
 
 <body>
-	<div class="header-wrap">
-		<header>
-			<%@include file="/WEB-INF/views/main/common/header.jsp"%>
-		</header>
-	</div>
+
+	<%@include file="/WEB-INF/views/main/common/header.jsp"%>
+	<%@include file="/WEB-INF/views/main/store/views/store_topnav.jsp"%>
+
 
 	<section class="detail container">
 		<div class="inner-warp">

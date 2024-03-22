@@ -10,22 +10,31 @@
 	rel="stylesheet">
 <link href="${pageContext.request.contextPath}/resource/css/core.css"
 	rel="stylesheet">
-<link href="${pageContext.request.contextPath}/resource/css/layout.css"
+	
+<link href="${pageContext.request.contextPath}/resource/css/common/mini.header.css"
 	rel="stylesheet">
-<link href="${pageContext.request.contextPath}/resource/css/store.css"
+<link href="${pageContext.request.contextPath}/resource/css/common/mini.footer.css"
 	rel="stylesheet">
+	
+<link href="${pageContext.request.contextPath}/resource/css/store/resource/css/layout.css"
+	rel="stylesheet">
+<link href="${pageContext.request.contextPath}/resource/css/store/resource/css/store.css"
+	rel="stylesheet">
+<link href="${pageContext.request.contextPath}/resource/css/store/resource/css/core.css"
+	rel="stylesheet">
+
 <title>스토어-포인트몰</title>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 </head>
 
 <body>
 	<div class="header-wrap">
-		<header>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-				Voluptatum, illum quasi nemo omnis dolorum eveniet unde dignissimos
-				exercitationem tenetur. Laboriosam suscipit quam magni facere enim
-				maiores necessitatibus, id ea ullam!</p>
-		</header>
+		<div class="header">
+			<%@include file="/WEB-INF/views/main/common/header.jsp"%>
+			
+		</div>
 	</div>
+
 
 	<section class="container">
 
@@ -38,13 +47,13 @@
 				<div class="contents-inner-wrap">
 					<h2 class="tit">스토어</h2>
 					<div class="tab-list">
-						<a href="store_main.html">
+						<a href="http://localhost:8080/megabox/store">
 							<div class="list">새로운 상품</div>
-						</a> <a href="store_ticket.html">
+						</a> <a href="http://localhost:8080/megabox/ticket">
 							<div class="list">메가티켓</div>
-						</a> <a href="store_snack.html">
+						</a> <a href="http://localhost:8080/megabox/snack">
 							<div class="list">팝콘/음료/굿즈</div>
-						</a> <a href="store_pointmall.html">
+						</a> <a href="http://localhost:8080/megabox/pointmall">
 							<div class="list pointmall">포인트몰</div>
 						</a>
 					</div>

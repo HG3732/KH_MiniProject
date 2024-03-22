@@ -25,7 +25,7 @@
                     <a href="#" title="고객센터">고객센터</a>
                 </div>
                 <div class="right-link">
-                    <a href="#" title="로그인">로그인</a>
+                    <a href="#" title="로그인"><button type="button" id="login">로그인</button></a>
                     <a href="#" title="회원가입">회원가입</a>
                     <a href="http://localhost:8080/megabox/booking" title="빠른예매">빠른예매</a>
                 </div>
@@ -49,7 +49,41 @@
             
         </header>
     </div>
+    <div class="wrap-modal">
+        <div class="modal-login">
+            <div class="top-bar">
+                <span>로그인</span>
+                <button type="button" class="close-login">X</button>
+            </div>
+            <div class="main-login">
+                <input type="text" name="id" placeholder="아이디">
+                <input type="password" name="pw" placeholder="비밀번호">
+                <button type="button" name="login-submit">로그인</button>
+            </div>
+        </div>
+    </div>
     
 </body>
+<script>
+$(loadedHandler);
+function loadedHandler(){
+	$("#login").on("click", loginHandler);
+	$(".close-login").on("click", loginCloseHandler);
+	$(".wrap-modal").on("click", loginCloseHandler);
+}
+
+function loginHandler(){
+	$(".wrap-modal").css("display", "block");
+}
+
+function loginCloseHandler(){
+	if((event.target == $(".wrap-modal").get(0))
+			||
+			(event.target == $(".close-login").get(0))
+			){
+		$(".wrap-modal").css("display", "none");
+	}
+}
+</script>
 
 </html>

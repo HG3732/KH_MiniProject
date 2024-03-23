@@ -20,8 +20,34 @@ $(loadedHandler);
 function loadedHandler(){
 	$("div.theater-1-2").hide();
 	$("div.theater-detail").hide();
+	$("div.time-content.list").hide();
+	
+	// 영화 탭 border
+	$("#movie-all-label").css("border-left", "1px solid black");
+	$("#movie-all-label").css("border-top", "1px solid black");
+	$("#movie-all-label").css("border-right", "1px solid black");
+	$("#movie-all-label").css("border-bottom", "1px solid rgba(128, 128, 128, 0.5)");
+	
+	$("#movie-curation-label").css("border-top", "1px solid rgba(128, 128, 128, 0.5)");
+	$("#movie-curation-label").css("border-right", "1px solid rgba(128, 128, 128, 0.5)");
+	$("#movie-curation-label").css("border-bottom", "1px solid black");
+	
+	// 극장 탭 border
+	$("#theater-all-label").css("border-left", "1px solid black");
+	$("#theater-all-label").css("border-top", "1px solid black");
+	$("#theater-all-label").css("border-right", "1px solid black");
+	$("#theater-all-label").css("border-bottom", "1px solid rgba(128, 128, 128, 0.5)");
+	
+	$("#theater-special-label").css("border-top", "1px solid rgba(128, 128, 128, 0.5)");
+	$("#theater-special-label").css("border-right", "1px solid rgba(128, 128, 128, 0.5)");
+	$("#theater-special-label").css("border-bottom", "1px solid black");
 }
 </script>
+<style>
+body > div.wrap-main > section.wrap-main.sec2 > div > div.theater > div.theater-content > div.theater-list > div.theater-1{
+	 border-right: 1px solid rgba(128, 128, 128, 0.5);
+}
+</style>
 </head>
 <body>
 	<div class="booking-sec2">
@@ -40,15 +66,15 @@ function loadedHandler(){
 					<!-- 전체 -->
 					<div class="movie-list-all">
 						<ul>
-							<li><h3>파묘</h3></li>
-							<li><h3>듄2</h3></li>
-							<li><h3>듄3</h3></li>
+							<li><img src="https://img.megabox.co.kr/static/pc/images/common/txt/15_20x20.png"><h3>파묘</h3></li>
+							<li><img src="https://img.megabox.co.kr/static/pc/images/common/txt/12_20x20.png"><h3>듄 파트: 2</h3></li>
+							<li><img src="https://img.megabox.co.kr/static/pc/images/common/txt/12_20x20.png"><h3>듄 파트: 3</h3></li>
 						</ul>
 					</div>
 					<!-- 큐레이션 -->
 					<div class="movie-list-curation">
 						<ul>
-							<li><h3>메가박스 특별</h3></li>
+							<li><img src="https://img.megabox.co.kr/static/pc/images/common/txt/18_20x20.png"><h3>메가박스 특별</h3></li>
 						</ul>
 					</div>
 				</div>
@@ -106,7 +132,7 @@ function loadedHandler(){
 							<ul>
 								<li><h3>강남</h3></li>
 								<li><h3>강북</h3></li>
-								<li><h3>강서</h3></li>
+								<li><h3>군자</h3></li>
 							</ul>
 						</div>
 						<div class="theater-detail gyeonggi" data-code="2">
@@ -156,19 +182,55 @@ function loadedHandler(){
 			<div class="time-title">
 				<h2>시간</h2>
 			</div>
-			<div>
-				Lorem ipsum dolor sit amet consectetur
-				adipisicing elit. Impedit architecto inventore, quaerat cupiditate
-				reiciendis molestias nulla reprehenderit ut esse harum earum
-				dignissimos! Ut nostrum dignissimos non fuga, possimus veniam
-				maiores?
+			<div class="time-select">
+			<button type="button" class="prev">
+				<img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-cld-pre.png">
+			</button>
+			<button type="button"><h2>14</h2></button>
+			<button type="button"><h2>15</h2></button>
+			<button type="button"><h2>16</h2></button>
+			<button type="button"><h2>17</h2></button>
+			<button type="button"><h2>18</h2></button>
+			<button type="button"><h2>19</h2></button>
+			<button type="button"><h2>20</h2></button>
+			<button type="button"><h2>21</h2></button>
+			<button type="button"><h2>22</h2></button>
+			<button type="button" class="next">
+				<img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-cld-next.png">
+			</button>
 			</div>
-			<div>
-				Lorem ipsum dolor sit amet consectetur
-				adipisicing elit. Impedit architecto inventore, quaerat cupiditate
-				reiciendis molestias nulla reprehenderit ut esse harum earum
-				dignissimos! Ut nostrum dignissimos non fuga, possimus veniam
-				maiores?
+			<div class="time-content default">
+				<div>
+					<img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-movie-time.png">
+				</div>
+				<div>
+					<h3>영화와 극장을 선택하시면</h3><br><h3>상영시간표를 비교하여 볼 수 있습니다.</h3>
+				</div>
+			</div>
+			<div class="time-content list">
+				<ul>
+					<li>
+						<button>
+							<div class="time-content-time">
+								<strong>12:45</strong>
+								<em>~15:09</em>
+							</div>
+							<div class="time-content-title">
+								<strong>듄 파트: 2</strong>
+								<br>
+								<em>2D</em>
+							</div>
+							<div class="time-content-space">
+								<div>
+									군자<br>1관
+								</div>
+								<div>
+									<strong>0</strong><span>/</span><em>232</em>
+								</div>
+							</div>
+						</button>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
@@ -177,11 +239,28 @@ function loadedHandler(){
 			$("input#movie-all").click(function() {
 				$("div.movie-list-all").show();
 				$("div.movie-list-curation").hide();
-
+				
+				$("#movie-all-label").css("border-left", "1px solid black");
+				$("#movie-all-label").css("border-top", "1px solid black");
+				$("#movie-all-label").css("border-right", "1px solid black");
+				$("#movie-all-label").css("border-bottom", "1px solid rgba(128, 128, 128, 0.5)");
+				
+				$("#movie-curation-label").css("border-top", "1px solid rgba(128, 128, 128, 0.5)");
+				$("#movie-curation-label").css("border-right", "1px solid rgba(128, 128, 128, 0.5)");
+				$("#movie-curation-label").css("border-bottom", "1px solid black");
 			});
 			$("input#movie-curation").click(function() {
 				$("div.movie-list-all").hide();
 				$("div.movie-list-curation").show();
+				
+				$("#movie-all-label").css("border-left", "1px solid rgba(128, 128, 128, 0.5)");
+				$("#movie-all-label").css("border-top", "1px solid rgba(128, 128, 128, 0.5)");
+				$("#movie-all-label").css("border-right", "1px solid black");
+				$("#movie-all-label").css("border-bottom", "1px solid black");
+				
+				$("#movie-curation-label").css("border-top", "1px solid black");
+				$("#movie-curation-label").css("border-right", "1px solid black");
+				$("#movie-curation-label").css("border-bottom", "1px solid rgba(128, 128, 128, 0.5)");
 			});
 
 			// 극장 탭 선택
@@ -189,11 +268,29 @@ function loadedHandler(){
 				$("div.theater-1-1").show();
 				$("div.theater-1-2").hide();
 				$("div.theater-detail").hide();
+				
+				$("#theater-all-label").css("border-left", "1px solid black");
+				$("#theater-all-label").css("border-top", "1px solid black");
+				$("#theater-all-label").css("border-right", "1px solid black");
+				$("#theater-all-label").css("border-bottom", "1px solid rgba(128, 128, 128, 0.5)");
+				
+				$("#theater-special-label").css("border-top", "1px solid rgba(128, 128, 128, 0.5)");
+				$("#theater-special-label").css("border-right", "1px solid rgba(128, 128, 128, 0.5)");
+				$("#theater-special-label").css("border-bottom", "1px solid black");
 			});
 			$("input#theater-special").click(function() {
 				$("div.theater-1-1").hide();
 				$("div.theater-1-2").show();
 				$("div.theater-detail").hide();
+				
+				$("#theater-all-label").css("border-left", "1px solid rgba(128, 128, 128, 0.5)");
+				$("#theater-all-label").css("border-top", "1px solid rgba(128, 128, 128, 0.5)");
+				$("#theater-all-label").css("border-right", "1px solid black");
+				$("#theater-all-label").css("border-bottom", "1px solid black");
+				
+				$("#theater-special-label").css("border-top", "1px solid black");
+				$("#theater-special-label").css("border-right", "1px solid black");
+				$("#theater-special-label").css("border-bottom", "1px solid rgba(128, 128, 128, 0.5)");
 			});
 
 			// 극장 세부 선택
@@ -204,6 +301,12 @@ function loadedHandler(){
 				$("div.theater-detail[data-code="+code+"]").addClass("active");
 				$("div.theater-detail.active").show();
 				$("div.theater-detail").removeClass("active");
+			});
+			
+			// 시간대 출력
+			$("div.theater-detail").on("click", function(){
+				$("div.time-content.default").hide();
+				$("div.time-content.list").show();
 			});
 		</script>
 </body>

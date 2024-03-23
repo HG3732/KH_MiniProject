@@ -95,6 +95,7 @@
 	display: block;
 	width: 1100px;
 	overflow: hidden;
+	padding: 20px 0 0 0;
 }
 /* .movie_chart > div{} */
 .movie_chart>div .poster {

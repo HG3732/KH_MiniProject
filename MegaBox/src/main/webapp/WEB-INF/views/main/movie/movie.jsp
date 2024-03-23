@@ -37,7 +37,8 @@
 						<li class="actlist"><button>클래식소사이어티</button></li>
 					</ul>
 				</div>
-				<!-- 영화선택옵션 -->
+			<!-- 
+				영화선택옵션
 				<div class="movieopt">
 					<div>
 						<div class="movoption opt1">
@@ -63,6 +64,7 @@
 						</div>
 					</div>
 				</div>
+				 -->
 				<!-- 차트 -->
 				<div class="movie_chart">
 					<div class="chart1">

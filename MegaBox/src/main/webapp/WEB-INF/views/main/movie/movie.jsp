@@ -105,7 +105,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요" data="1"></a><span
 										class="likenum">980</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -145,7 +145,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요" data-num="2"></a><span
 										class="likenum">1550</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -185,7 +185,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요" data-num="3"></a><span
 										class="likenum">999</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -225,7 +225,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요" data-num="4"></a><span
 										class="likenum">980</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -265,7 +265,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요" data-num="5"></a><span
 										class="likenum">540</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -304,7 +304,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요" data-num="6"></a><span
 										class="likenum">321</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -344,7 +344,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요" data-num="7"></a><span
 										class="likenum">228</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -383,7 +383,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요" data-num="8"></a><span
 										class="likenum">30</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 
@@ -424,7 +424,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요" data-num="9"></a><span
 										class="likenum">55</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 
 						</div>
@@ -465,7 +465,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요" data-num="10"></a><span
 										class="likenum">957</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 
 						</div>
@@ -506,7 +506,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요" data-num="11"></a><span
 										class="likenum">395</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 
 						</div>
@@ -547,7 +547,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요" data-num="12"></a><span
 										class="likenum">9</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 
 						</div>
@@ -590,7 +590,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">540</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -629,7 +629,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">321</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -669,7 +669,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">228</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -708,7 +708,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">30</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 
@@ -749,7 +749,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">980</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -789,7 +789,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">1550</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -829,7 +829,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">999</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -869,7 +869,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">980</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 
@@ -910,7 +910,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">55</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 
 						</div>
@@ -951,7 +951,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">957</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 
 						</div>
@@ -992,7 +992,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">395</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 
 						</div>
@@ -1033,7 +1033,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">9</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 
 						</div>
@@ -1076,7 +1076,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">999</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -1116,7 +1116,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">980</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -1156,7 +1156,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">540</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -1195,7 +1195,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">321</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 
@@ -1236,7 +1236,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">980</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -1276,7 +1276,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">1550</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -1316,7 +1316,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">228</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -1355,7 +1355,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">30</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 
@@ -1396,7 +1396,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">55</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 
 						</div>
@@ -1437,7 +1437,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">957</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 
 						</div>
@@ -1478,7 +1478,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">395</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 
 						</div>
@@ -1519,7 +1519,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">9</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 
 						</div>
@@ -1562,7 +1562,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">980</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -1602,7 +1602,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">1550</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -1642,7 +1642,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">999</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -1682,7 +1682,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">980</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -1722,7 +1722,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">540</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -1761,7 +1761,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">321</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -1801,7 +1801,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">228</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -1840,7 +1840,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">30</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 
@@ -1881,7 +1881,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">55</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 
 						</div>
@@ -1922,7 +1922,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">957</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 
 						</div>
@@ -1963,7 +1963,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">395</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 
 						</div>
@@ -2004,7 +2004,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">9</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 
 						</div>
@@ -2047,7 +2047,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">980</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -2087,7 +2087,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">1550</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -2127,7 +2127,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">999</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -2167,7 +2167,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">980</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -2207,7 +2207,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">540</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -2246,7 +2246,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">321</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -2286,7 +2286,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">228</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 						<div class="poster">
@@ -2325,7 +2325,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">30</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 						</div>
 
@@ -2366,7 +2366,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">55</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 
 						</div>
@@ -2407,7 +2407,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">957</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 
 						</div>
@@ -2448,7 +2448,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">395</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 
 						</div>
@@ -2489,7 +2489,7 @@
 									<label><a href="#" class="hrtimg" title="좋아요"></a><span
 										class="likenum">9</span></label>
 								</button>
-								<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+								<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 							</div>
 
 						</div>
@@ -2520,13 +2520,13 @@
 			var indexNum = target.index();
 			chart.css("display", "none");
 			chart.eq(indexNum).css("display", "block");
-			/* 
+			
 			if(!(indexNum == 0)){
 				$(".rank").css("display", "none");
 			}else {
 				$(".rank").css("display", "block");
 			}
-			 */
+			
 			if (indexNum == 1) {
 				$(".movieopt .opt1").css("display", "none");
 				$(".movieopt .opt2").css("display", "block");
@@ -2570,7 +2570,7 @@
 		<button class="goodbtn">
 			<label><a href="#" class="hrtimg" title="좋아요"></a><span class="likenum">980</span></label>
 		</button>
-			<button type="button" class="bookbtn"><span class="booktxt">예매</span></button>
+			<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
 		</div>
 		 */
 	</script>

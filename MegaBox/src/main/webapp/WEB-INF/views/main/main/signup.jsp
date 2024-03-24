@@ -18,6 +18,7 @@
 	    	$(".check").on("click", checkHandler);
 	    	$(".submit1").on("click", stepForward1Handler);
 	    	$(".id").on("keyup", idAlertHandler);
+	    	$(".confpw").on("keyup", confpwAlertHandler);
 	    	$(".step2input").on("focusout", checkStep2);
 	    	$(".submit2").on("click", stepForward2Handler);
 	    	$(".submit3").on("click", stepEndHandler);
@@ -64,6 +65,15 @@
     		}
     	}
     	
+    	//비밀번호와 비밀번호 확인이 일치하는지 확인하는 함수
+    	function confpwAlertHandler() {
+    		if($(".pw").val().trim() == $(".confpw").val().trim()){
+    			$(".alert2").css("display", "none");
+    		} else {
+    			$(".alert2").css("display", "block");    			
+    		}
+    	}
+    	
     	//step2의 모든 항목을 조건에 맞게 입력해야 회원가입 버튼 활성화
     	function checkStep2() {
     		if(($(".birth").val().trim().length != 0) &&
@@ -72,7 +82,8 @@
     			($(".pw").val().trim().length != 0) &&		
     			($(".confpw").val().trim().length != 0) &&		
     			($(".mail").val().trim().length != 0) &&
-    			$(".alert").css("display") == 'none'){
+    			($(".alert").css("display") == 'none') &&
+    			($(".alert2").css("display") == 'none')){
     				$(".submit2").prop('disabled', false);
     			} else {
     				$(".submit2").prop('disabled', true);	
@@ -80,6 +91,7 @@
     		
     	}
 		
+    	//step2에서 step3로 넘어가는 함수
     	function stepForward2Handler() {
       		$(".wrap-step2").css("display", "none");
     		$("li.step2").css("border-color", "#ccc")
@@ -186,7 +198,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet diam in li
                                         비밀번호 확인
                                     </th>
                                     <td>
-                                        <input type="text" name="confpw" class="confpw step2input" placeholder="영문, 숫자 조합(8~12자)" autocomplete="off">
+                                        <input type="text" name="confpw" class="confpw step2input" autocomplete="off">
+                                        <div class="alert2">비밀번호가 일치하지 않습니다.</div>
                                     </td>
                                 </tr>
                                 <tr>

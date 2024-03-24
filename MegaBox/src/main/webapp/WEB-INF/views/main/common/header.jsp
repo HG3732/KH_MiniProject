@@ -26,7 +26,7 @@
                 </div>
                 <div class="right-link">
                     <a href="#" title="로그인"><button type="button" id="login">로그인</button></a>
-                    <a href="#" title="회원가입">회원가입</a>
+                    <a href="http://localhost:8080/megabox/signup" title="회원가입" target="_blank">회원가입</a>
                     <a href="http://localhost:8080/megabox/booking" title="빠른예매">빠른예매</a>
                 </div>
             </div>

@@ -39,22 +39,16 @@
 	}
 	// 수량 추가
 	function plusTotal() {
-		$("input.num").val(
-				Number.parseInt($("input.num").val()) + Number.parseInt(1));
-		$("div.total").html(
-				Number.parseInt(16000) * Number.parseInt($("input.num").val())
-						+ '원');
+		$("input.num").val(Number.parseInt($("input.num").val()) + Number.parseInt(1));
+		$("div.total").html(Number.parseInt(16000) * Number.parseInt($("input.num").val())+'원');
 
 	};
 	// 수량 차감
 	function minusHandler() {
-		if ($("input.num").val() > 0) {
-			$("input.num").val(
-					Number.parseInt($("input.num").val()) - Number.parseInt(1));
+		if ($("input.num").val() > 1) {
+			$("input.num").val(Number.parseInt($("input.num").val()) - Number.parseInt(1));
 			// console.log($("price"));
-			$("div.total").html(
-					Number.parseInt(16000)
-							* Number.parseInt($("input.num").val()) + '원');
+			$("div.total").html(Number.parseInt(16000)* Number.parseInt($("input.num").val()) + '원');
 		} else {
 			return;
 		}

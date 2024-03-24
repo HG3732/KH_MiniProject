@@ -2518,15 +2518,21 @@
 		tab.click(function() {
 			var target = $(this);
 			var indexNum = target.index();
+			var none = $(this)
 			chart.css("display", "none");
 			chart.eq(indexNum).css("display", "block");
 			
+			/* 박스오피스에서만 순위 표시 */
 			if(!(indexNum == 0)){
 				$(".rank").css("display", "none");
 			}else {
 				$(".rank").css("display", "block");
 			}
 			
+			
+			
+						
+			/*
 			if (indexNum == 1) {
 				$(".movieopt .opt1").css("display", "none");
 				$(".movieopt .opt2").css("display", "block");
@@ -2534,8 +2540,36 @@
 				$(".movieopt .opt1").css("display", "block");
 				$(".movieopt .opt2").css("display", "none");
 			}
+			*/
 		});
-
+		
+		tab.click(function() {
+			$(".movie_tab > ul >li").removeClass("activetab");
+			$(this).addClass("activetab");
+			/* 
+			var target = $(this);
+			var indexNum = target.index();
+			var lenght = target.length();
+			var none = $(this)
+			console.log("=====");
+			console.log("=="+lenght);
+			for(var i = 0; i< lenght; i++){
+				console.log(i);
+				if(i == indexNum){
+					target.addClass(".activetab");		
+				} else
+					target.removeClass(".activetab");
+			} */
+		});
+		/* 선택된 탭 표시 */
+		/* tab.click(function(){
+			var target = $(this);
+			var none = $(this).not();
+			this.addClass(".activetab");
+			none.removeClass(".activetab");
+		}); */
+		
+		
 		/* 더보기 */
 		var addb = $(".addbtn");
 		addb.click(function() {
@@ -2544,35 +2578,20 @@
 			$(".addbar").css("display", "none");
 		});
 
-		/* 포스터 */
+		/* 좋아요 */
 		
 		var hrt = $(".hrtimg");
 		hrt.on("click", function() {
 			hrt.toggleClass("likebtn");
 		}); 
- /*
-		/* 좋아요 */
-		/* var temp = $(".hrtimg");
-		console.log(temp);
-		var digit = 1;
-		var tempnum;
-		temp.each(function(){
-			tempnum.append("digit", this.eq(digit));
-			digit++;
-			console.log(digit);
-			console.log(this);
-			console.log(tempnum);
-		}); */
+ 
+		/* 좋아요 수 */
+		var addnum = $(".likenum");
+		hrt.on("click", function() {
+			console.log(addnum);
+			console.log(addnum.val());
+		});
 		
-		
-		/* 
-		<div class="infor_btn">
-		<button class="goodbtn">
-			<label><a href="#" class="hrtimg" title="좋아요"></a><span class="likenum">980</span></label>
-		</button>
-			<button type="button" class="bookbtn"><a href="http://localhost:8080/megabox/booking"><span class="booktxt">예매</span></a></button>
-		</div>
-		 */
 	</script>
 </body>
 

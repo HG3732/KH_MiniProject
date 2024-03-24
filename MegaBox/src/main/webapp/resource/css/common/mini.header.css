@@ -243,5 +243,16 @@ div{
         width: fit-content;
         margin: 10px auto 5px auto;
     }
+    
+   #login {
+    border:none;
+    color: #444;
+    background-color: transparent;
+	}
+
+	#login:hover {
+    text-decoration:underline;
+	}
+    
 
 

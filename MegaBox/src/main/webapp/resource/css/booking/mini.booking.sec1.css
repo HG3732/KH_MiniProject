@@ -1,6 +1,28 @@
 @charset "UTF-8";
 
+.booking-sec1 button {
+	cursor: pointer;
+}
 
+.booking-sec1 div.quick-reserve-datelist {
+	align-content: center;
+}
+
+.booking-sec1 div.quick {
+	float: left;
+	width: calc(100% - 52px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking-sec1 div.cal {
+	float: right;
+	width: auto;
+}
+
+.booking-sec1 img.ui-datepicker-trigger {
+	cursor: pointer;
+}
 
 .ui-datepicker {
 	width: 17em;
@@ -481,29 +503,4 @@
 
 .ui-datepicker .ui-datepicker-buttonpane .legend .iconset {
 	margin-left: 6px
-}
-
-
-
-
-
-
-
-
-.booking-sec1 div.quick-reserve-datelist {
-	align-content: center;
-}
-
-.booking-sec1 div.quick {
-	float: left;
-	width: auto;
-}
-
-.booking-sec1 div.cal {
-	float: right;
-	width: auto;
-}
-
-.booking-sec1 img.ui-datepicker-trigger {
-	cursor: pointer;
 }

@@ -1,5 +1,5 @@
 * {
-    font-family: 나눔바른고딕OTF;
+    /* font-family: 나눔바른고딕OTF; */
     box-sizing: border-box;
 }
 h1{
@@ -35,9 +35,6 @@ a{
     color: #503396;
     
 }
-/* .tab-list a:visited{
-    background-color: #503396;
-} */
 
 .tab-list a:checked{
     background-color: #503396;

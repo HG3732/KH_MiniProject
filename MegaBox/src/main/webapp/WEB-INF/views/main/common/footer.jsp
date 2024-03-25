@@ -19,7 +19,7 @@
             <div><a href="#"><h3>제휴/광고/부대사업문의</h3></a></div>
             <div><a href="#"><h3>이용약관</h3></a></div>
             <div>
-                <a href="#"><i class="footer-search-icon">"극장찾기"</i><h3>극장찾기</h3></a>
+                <a href="http://localhost:8080/megabox/theatre"><i class="footer-search-icon">"극장찾기"</i><h3>극장찾기</h3></a>
             </div>
         </div>
         <div class="inner-wrap">

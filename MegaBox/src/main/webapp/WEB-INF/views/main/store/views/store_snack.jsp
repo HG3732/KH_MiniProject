@@ -9,41 +9,48 @@
 	rel="stylesheet">
 <link href="${pageContext.request.contextPath}/resource/css/core.css"
 	rel="stylesheet">
-<link href="${pageContext.request.contextPath}/resource/css/layout.css"
+
+<link
+	href="${pageContext.request.contextPath}/resource/css/common/mini.header.css"
 	rel="stylesheet">
-<link href="${pageContext.request.contextPath}/resource/css/store.css"
+<link
+	href="${pageContext.request.contextPath}/resource/css/common/mini.footer.css"
+	rel="stylesheet">
+
+<link
+	href="${pageContext.request.contextPath}/resource/css/store/resource/css/layout.css"
+	rel="stylesheet">
+<link
+	href="${pageContext.request.contextPath}/resource/css/store/resource/css/store.css"
+	rel="stylesheet">
+<link
+	href="${pageContext.request.contextPath}/resource/css/store/resource/css/core.css"
 	rel="stylesheet">
 <title>스토어-스낵</title>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 </head>
 
 <body>
-	<div class="header-wrap">
-		<header>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-				Voluptatum, illum quasi nemo omnis dolorum eveniet unde dignissimos
-				exercitationem tenetur. Laboriosam suscipit quam magni facere enim
-				maiores necessitatibus, id ea ullam!</p>
-		</header>
-	</div>
+
+	<%@include file="/WEB-INF/views/main/common/header.jsp"%>
+	<%@include file="/WEB-INF/views/main/store/views/store_topnav.jsp"%>
+
 
 	<section class="container">
 
 		<div class="inner-wrap">
-			<div class="location">
-				<span>Home</span> <a href="" title="스토어"></a>
-			</div>
 
 			<div class="contents">
 				<div class="contents-inner-wrap">
 					<h2 class="tit">스토어</h2>
 					<div class="tab-list">
-						<a href="store_main.html">
+						<a href="http://localhost:8080/megabox/store">
 							<div class="list">새로운 상품</div>
-						</a> <a href="store_ticket.html">
+						</a> <a href="http://localhost:8080/megabox/ticket">
 							<div class="list">메가티켓</div>
-						</a> <a href="store_snack.html">
+						</a> <a href="http://localhost:8080/megabox/snack">
 							<div class="list">팝콘/음료/굿즈</div>
-						</a> <a href="store_pointmall.html">
+						</a> <a href="http://localhost:8080/megabox/pointmall">
 							<div class="list pointmall">포인트몰</div>
 						</a>
 					</div>
@@ -344,12 +351,11 @@
 		</div>
 		</div>
 	</section>
-	<footer id="wrap-footer">
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-			Dolores nemo voluptatum inventore numquam, deleniti suscipit facere
-			ea sed fuga officiis natus consequuntur sequi, ducimus quia soluta
-			optio ex exercitationem quidem?</p>
-	</footer>
+	<div class="wrap-footer">
+		<footer>
+			<%@include file="/WEB-INF/views/main/common/footer.jsp"%>
+		</footer>
+	</div>
 </body>
 
 </html>

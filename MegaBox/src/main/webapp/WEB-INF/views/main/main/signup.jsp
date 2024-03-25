@@ -190,7 +190,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet diam in li
                                         비밀번호
                                     </th>
                                     <td>
-                                        <input type="text" name="pw" class="pw step2input" placeholder="영문, 숫자 조합(8~12자)" autocomplete="off">
+                                        <input type="password" name="pw" class="pw step2input" placeholder="영문, 숫자 조합(8~12자)" autocomplete="off">
                                     </td>
                                 </tr>
                                 <tr>
@@ -198,7 +198,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet diam in li
                                         비밀번호 확인
                                     </th>
                                     <td>
-                                        <input type="text" name="confpw" class="confpw step2input" autocomplete="off">
+                                        <input type="password" name="confpw" class="confpw step2input" autocomplete="off">
                                         <div class="alert2">비밀번호가 일치하지 않습니다.</div>
                                     </td>
                                 </tr>

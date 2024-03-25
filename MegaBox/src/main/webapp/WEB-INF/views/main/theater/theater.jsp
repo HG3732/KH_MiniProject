@@ -6,8 +6,9 @@
 <meta charset="UTF-8">
 <title>MEET PLAY SHARE, 메가박스</title> 
 
-<link rel="stylesheet" href="/CSS/reset.css">
-<link rel="stylesheet" href="/CSS/mini.core.css">
+
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/reset.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/mini.core.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/common/mini.header.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/common/mini.footer.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/css/theater/theater.css">
@@ -227,9 +228,10 @@
                     <td>제목</td>
         
 	
-<%@include file="/WEB-INF/views/main/common/footer.jsp"%>
+    <%@include file="/WEB-INF/views/main/common/footer.jsp"%>
 </body>
 <script>
+
 
         $(document).ready(function () {
             $('ul.tabs li').click(function () {
